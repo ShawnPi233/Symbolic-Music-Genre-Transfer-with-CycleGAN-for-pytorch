@@ -155,7 +155,7 @@ def check_path(path, rank=0):
 
 
 if __name__=='__main__':
-    test_dir = './test/test.mid'
+    test_dir = 'test0/test.mid'
     m = pretty_midi.PrettyMIDI(test_dir)
 
     # a=m.instruments[0].get_piano_roll()

@@ -1,0 +1,1044 @@
+2023-01-11 17:47:25,504 - Hyperparameter: lr:2e-05 wd:0 batch_size:2
+2023-01-11 17:47:25,656 - Train data contains 2*11216 items
+2023-01-11 17:47:25,656 - Load model with mode JC
+2023-01-11 17:47:25,656 - Model Args: sigma:0.01 sample_size:50 lamb:10
+2023-01-11 17:47:28,772 - ---Define Optimizer---
+2023-01-11 17:47:28,773 - ---Start Training---
+2023-01-11 17:47:29,837 - [epoch:   1/ 30, batch:     0/11216, ite: 1, time: 1.063499] g_loss : 11.990208, d_loss : 1.988075 
+2023-01-11 17:50:53,984 - [epoch:   1/ 30, batch:   400/11216, ite: 201, time: 204.146579] g_loss : 6.111930, d_loss : 1.228313 
+2023-01-11 17:54:09,473 - [epoch:   1/ 30, batch:   800/11216, ite: 401, time: 195.489203] g_loss : 4.191680, d_loss : 0.945138 
+2023-01-11 17:57:29,571 - [epoch:   1/ 30, batch:  1200/11216, ite: 601, time: 200.097871] g_loss : 3.383551, d_loss : 0.832087 
+2023-01-11 18:00:44,997 - [epoch:   1/ 30, batch:  1600/11216, ite: 801, time: 195.426291] g_loss : 2.939511, d_loss : 0.770822 
+2023-01-11 18:04:04,415 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_1000_G_2.661836_D_0.729487.pth
+2023-01-11 18:04:05,415 - [epoch:   1/ 30, batch:  2000/11216, ite: 1001, time: 200.417525] g_loss : 1.266861, d_loss : 0.562629 
+2023-01-11 18:07:30,500 - [epoch:   1/ 30, batch:  2400/11216, ite: 1201, time: 205.085900] g_loss : 1.512228, d_loss : 0.551679 
+2023-01-11 18:10:51,143 - [epoch:   1/ 30, batch:  2800/11216, ite: 1401, time: 200.642146] g_loss : 1.490027, d_loss : 0.547823 
+2023-01-11 18:14:16,514 - [epoch:   1/ 30, batch:  3200/11216, ite: 1601, time: 205.371017] g_loss : 1.581763, d_loss : 0.525255 
+2023-01-11 18:17:39,565 - [epoch:   1/ 30, batch:  3600/11216, ite: 1801, time: 203.051606] g_loss : 1.606387, d_loss : 0.513720 
+2023-01-11 18:21:04,406 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_2000_G_1.597992_D_0.510041.pth
+2023-01-11 18:21:05,366 - [epoch:   1/ 30, batch:  4000/11216, ite: 2001, time: 205.800972] g_loss : 1.303737, d_loss : 0.429640 
+2023-01-11 18:24:25,984 - [epoch:   1/ 30, batch:  4400/11216, ite: 2201, time: 200.618188] g_loss : 1.535353, d_loss : 0.499404 
+2023-01-11 18:27:48,888 - [epoch:   1/ 30, batch:  4800/11216, ite: 2401, time: 202.903639] g_loss : 1.506634, d_loss : 0.502968 
+2023-01-11 18:31:10,054 - [epoch:   1/ 30, batch:  5200/11216, ite: 2601, time: 201.166253] g_loss : 1.507470, d_loss : 0.504029 
+2023-01-11 18:34:30,309 - [epoch:   1/ 30, batch:  5600/11216, ite: 2801, time: 200.255041] g_loss : 1.492855, d_loss : 0.505911 
+2023-01-11 18:37:48,247 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_3000_G_1.483017_D_0.506015.pth
+2023-01-11 18:37:49,248 - [epoch:   1/ 30, batch:  6000/11216, ite: 3001, time: 198.938503] g_loss : 1.301749, d_loss : 0.620466 
+2023-01-11 18:41:09,538 - [epoch:   1/ 30, batch:  6400/11216, ite: 3201, time: 200.290146] g_loss : 1.468853, d_loss : 0.507389 
+2023-01-11 18:44:33,079 - [epoch:   1/ 30, batch:  6800/11216, ite: 3401, time: 203.541471] g_loss : 1.458090, d_loss : 0.504110 
+2023-01-11 18:47:51,187 - [epoch:   1/ 30, batch:  7200/11216, ite: 3601, time: 198.107446] g_loss : 1.455028, d_loss : 0.503781 
+2023-01-11 18:51:10,642 - [epoch:   1/ 30, batch:  7600/11216, ite: 3801, time: 199.455487] g_loss : 1.456238, d_loss : 0.502304 
+2023-01-11 18:54:30,745 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_4000_G_1.444013_D_0.502490.pth
+2023-01-11 18:54:31,754 - [epoch:   1/ 30, batch:  8000/11216, ite: 4001, time: 201.111574] g_loss : 1.237277, d_loss : 0.488708 
+2023-01-11 18:57:52,673 - [epoch:   1/ 30, batch:  8400/11216, ite: 4201, time: 200.919438] g_loss : 1.417159, d_loss : 0.505688 
+2023-01-11 19:01:13,369 - [epoch:   1/ 30, batch:  8800/11216, ite: 4401, time: 200.695388] g_loss : 1.433514, d_loss : 0.502226 
+2023-01-11 19:04:33,881 - [epoch:   1/ 30, batch:  9200/11216, ite: 4601, time: 200.512096] g_loss : 1.446730, d_loss : 0.498339 
+2023-01-11 19:08:01,344 - [epoch:   1/ 30, batch:  9600/11216, ite: 4801, time: 207.463012] g_loss : 1.450531, d_loss : 0.496151 
+2023-01-11 19:11:26,420 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_5000_G_1.455369_D_0.493862.pth
+2023-01-11 19:11:27,418 - [epoch:   1/ 30, batch: 10000/11216, ite: 5001, time: 206.073993] g_loss : 1.595245, d_loss : 0.514701 
+2023-01-11 19:14:52,186 - [epoch:   1/ 30, batch: 10400/11216, ite: 5201, time: 204.767795] g_loss : 1.441737, d_loss : 0.486396 
+2023-01-11 19:18:16,865 - [epoch:   1/ 30, batch: 10800/11216, ite: 5401, time: 204.679774] g_loss : 1.440174, d_loss : 0.486022 
+2023-01-11 19:21:38,888 - [epoch:   1/ 30, batch: 11200/11216, ite: 5601, time: 202.022728] g_loss : 1.448813, d_loss : 0.484791 
+2023-01-11 19:21:46,636 - [epoch:   2/ 30, batch:     0/11216, ite: 5609, time: 7.748126] g_loss : 1.447662, d_loss : 0.484679 
+2023-01-11 19:25:12,743 - [epoch:   2/ 30, batch:   400/11216, ite: 5809, time: 206.106430] g_loss : 1.441449, d_loss : 0.485862 
+2023-01-11 19:28:28,705 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_6000_G_1.439216_D_0.485873.pth
+2023-01-11 19:28:37,828 - [epoch:   2/ 30, batch:   800/11216, ite: 6009, time: 205.085508] g_loss : 1.344285, d_loss : 0.491266 
+2023-01-11 19:31:58,988 - [epoch:   2/ 30, batch:  1200/11216, ite: 6209, time: 201.159746] g_loss : 1.425439, d_loss : 0.484583 
+2023-01-11 19:35:15,050 - [epoch:   2/ 30, batch:  1600/11216, ite: 6409, time: 196.061535] g_loss : 1.415340, d_loss : 0.487731 
+2023-01-11 19:38:39,477 - [epoch:   2/ 30, batch:  2000/11216, ite: 6609, time: 204.427178] g_loss : 1.410427, d_loss : 0.486873 
+2023-01-11 19:42:02,356 - [epoch:   2/ 30, batch:  2400/11216, ite: 6809, time: 202.879014] g_loss : 1.412169, d_loss : 0.485927 
+2023-01-11 19:45:19,293 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_7000_G_1.411215_D_0.485840.pth
+2023-01-11 19:45:27,972 - [epoch:   2/ 30, batch:  2800/11216, ite: 7009, time: 205.616041] g_loss : 1.335767, d_loss : 0.517037 
+2023-01-11 19:48:44,798 - [epoch:   2/ 30, batch:  3200/11216, ite: 7209, time: 196.825698] g_loss : 1.414615, d_loss : 0.484750 
+2023-01-11 19:52:06,363 - [epoch:   2/ 30, batch:  3600/11216, ite: 7409, time: 201.565864] g_loss : 1.422941, d_loss : 0.482738 
+2023-01-11 19:55:26,653 - [epoch:   2/ 30, batch:  4000/11216, ite: 7609, time: 200.289559] g_loss : 1.414912, d_loss : 0.484066 
+2023-01-11 19:58:43,682 - [epoch:   2/ 30, batch:  4400/11216, ite: 7809, time: 197.029229] g_loss : 1.416518, d_loss : 0.484181 
+2023-01-11 20:01:58,129 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_8000_G_1.410719_D_0.484350.pth
+2023-01-11 20:02:07,153 - [epoch:   2/ 30, batch:  4800/11216, ite: 8009, time: 203.470400] g_loss : 1.460324, d_loss : 0.466983 
+2023-01-11 20:05:27,157 - [epoch:   2/ 30, batch:  5200/11216, ite: 8209, time: 200.004310] g_loss : 1.435868, d_loss : 0.480116 
+2023-01-11 20:08:45,619 - [epoch:   2/ 30, batch:  5600/11216, ite: 8409, time: 198.461707] g_loss : 1.414022, d_loss : 0.481639 
+2023-01-11 20:12:09,692 - [epoch:   2/ 30, batch:  6000/11216, ite: 8609, time: 204.073138] g_loss : 1.405886, d_loss : 0.482908 
+2023-01-11 20:15:36,016 - [epoch:   2/ 30, batch:  6400/11216, ite: 8809, time: 206.324544] g_loss : 1.409372, d_loss : 0.483366 
+2023-01-11 20:18:52,955 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_9000_G_1.407748_D_0.483177.pth
+2023-01-11 20:19:01,975 - [epoch:   2/ 30, batch:  6800/11216, ite: 9009, time: 205.958694] g_loss : 1.490659, d_loss : 0.483937 
+2023-01-11 20:22:22,934 - [epoch:   2/ 30, batch:  7200/11216, ite: 9209, time: 200.959300] g_loss : 1.427320, d_loss : 0.480412 
+2023-01-11 20:25:38,814 - [epoch:   2/ 30, batch:  7600/11216, ite: 9409, time: 195.879772] g_loss : 1.431293, d_loss : 0.479297 
+2023-01-11 20:29:05,308 - [epoch:   2/ 30, batch:  8000/11216, ite: 9609, time: 206.493479] g_loss : 1.411541, d_loss : 0.480642 
+2023-01-11 20:32:21,823 - [epoch:   2/ 30, batch:  8400/11216, ite: 9809, time: 196.515282] g_loss : 1.407907, d_loss : 0.483051 
+2023-01-11 20:35:37,698 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_10000_G_1.406619_D_0.483417.pth
+2023-01-11 20:35:46,818 - [epoch:   2/ 30, batch:  8800/11216, ite: 10009, time: 204.995420] g_loss : 1.356087, d_loss : 0.485186 
+2023-01-11 20:39:08,844 - [epoch:   2/ 30, batch:  9200/11216, ite: 10209, time: 202.025893] g_loss : 1.394074, d_loss : 0.483949 
+2023-01-11 20:42:25,985 - [epoch:   2/ 30, batch:  9600/11216, ite: 10409, time: 197.140698] g_loss : 1.397189, d_loss : 0.482929 
+2023-01-11 20:45:45,366 - [epoch:   2/ 30, batch: 10000/11216, ite: 10609, time: 199.381198] g_loss : 1.406972, d_loss : 0.482056 
+2023-01-11 20:49:08,856 - [epoch:   2/ 30, batch: 10400/11216, ite: 10809, time: 203.489622] g_loss : 1.403645, d_loss : 0.480959 
+2023-01-11 20:52:15,735 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_11000_G_1.403918_D_0.481168.pth
+2023-01-11 20:52:24,654 - [epoch:   2/ 30, batch: 10800/11216, ite: 11009, time: 195.798462] g_loss : 1.473961, d_loss : 0.469591 
+2023-01-11 20:55:45,739 - [epoch:   2/ 30, batch: 11200/11216, ite: 11209, time: 201.084779] g_loss : 1.433401, d_loss : 0.477635 
+2023-01-11 20:55:53,514 - [epoch:   3/ 30, batch:     0/11216, ite: 11217, time: 7.774902] g_loss : 1.430620, d_loss : 0.477624 
+2023-01-11 20:59:08,875 - [epoch:   3/ 30, batch:   400/11216, ite: 11417, time: 195.360851] g_loss : 1.415503, d_loss : 0.479680 
+2023-01-11 21:02:31,925 - [epoch:   3/ 30, batch:   800/11216, ite: 11617, time: 203.050197] g_loss : 1.411652, d_loss : 0.479950 
+2023-01-11 21:05:53,580 - [epoch:   3/ 30, batch:  1200/11216, ite: 11817, time: 201.654837] g_loss : 1.410126, d_loss : 0.479996 
+2023-01-11 21:09:00,048 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_12000_G_1.405605_D_0.480976.pth
+2023-01-11 21:09:16,570 - [epoch:   3/ 30, batch:  1600/11216, ite: 12017, time: 202.990665] g_loss : 1.416574, d_loss : 0.486217 
+2023-01-11 21:12:35,050 - [epoch:   3/ 30, batch:  2000/11216, ite: 12217, time: 198.479917] g_loss : 1.383771, d_loss : 0.481200 
+2023-01-11 21:16:00,602 - [epoch:   3/ 30, batch:  2400/11216, ite: 12417, time: 205.551315] g_loss : 1.392038, d_loss : 0.479495 
+2023-01-11 21:19:21,353 - [epoch:   3/ 30, batch:  2800/11216, ite: 12617, time: 200.751117] g_loss : 1.390261, d_loss : 0.479577 
+2023-01-11 21:22:44,392 - [epoch:   3/ 30, batch:  3200/11216, ite: 12817, time: 203.039069] g_loss : 1.392201, d_loss : 0.478799 
+2023-01-11 21:25:48,896 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_13000_G_1.394291_D_0.476948.pth
+2023-01-11 21:26:05,413 - [epoch:   3/ 30, batch:  3600/11216, ite: 13017, time: 201.021107] g_loss : 1.419068, d_loss : 0.452221 
+2023-01-11 21:29:26,603 - [epoch:   3/ 30, batch:  4000/11216, ite: 13217, time: 201.189737] g_loss : 1.377738, d_loss : 0.472128 
+2023-01-11 21:32:42,681 - [epoch:   3/ 30, batch:  4400/11216, ite: 13417, time: 196.078147] g_loss : 1.387616, d_loss : 0.471731 
+2023-01-11 21:36:09,892 - [epoch:   3/ 30, batch:  4800/11216, ite: 13617, time: 207.210922] g_loss : 1.383918, d_loss : 0.473002 
+2023-01-11 21:39:34,982 - [epoch:   3/ 30, batch:  5200/11216, ite: 13817, time: 205.090123] g_loss : 1.392510, d_loss : 0.474067 
+2023-01-11 21:42:38,613 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_14000_G_1.389701_D_0.475619.pth
+2023-01-11 21:42:55,412 - [epoch:   3/ 30, batch:  5600/11216, ite: 14017, time: 200.430535] g_loss : 1.306446, d_loss : 0.472545 
+2023-01-11 21:46:15,090 - [epoch:   3/ 30, batch:  6000/11216, ite: 14217, time: 199.678216] g_loss : 1.370055, d_loss : 0.481834 
+2023-01-11 21:49:36,937 - [epoch:   3/ 30, batch:  6400/11216, ite: 14417, time: 201.846429] g_loss : 1.389879, d_loss : 0.481924 
+2023-01-11 21:52:59,192 - [epoch:   3/ 30, batch:  6800/11216, ite: 14617, time: 202.255072] g_loss : 1.390534, d_loss : 0.481463 
+2023-01-11 21:56:21,333 - [epoch:   3/ 30, batch:  7200/11216, ite: 14817, time: 202.140652] g_loss : 1.394459, d_loss : 0.481007 
+2023-01-11 21:59:22,669 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_15000_G_1.400386_D_0.479666.pth
+2023-01-11 21:59:39,124 - [epoch:   3/ 30, batch:  7600/11216, ite: 15017, time: 197.791057] g_loss : 1.458546, d_loss : 0.470533 
+2023-01-11 22:02:56,787 - [epoch:   3/ 30, batch:  8000/11216, ite: 15217, time: 197.663518] g_loss : 1.370856, d_loss : 0.477969 
+2023-01-11 22:06:18,103 - [epoch:   3/ 30, batch:  8400/11216, ite: 15417, time: 201.315611] g_loss : 1.378079, d_loss : 0.481381 
+2023-01-11 22:09:42,155 - [epoch:   3/ 30, batch:  8800/11216, ite: 15617, time: 204.051695] g_loss : 1.388912, d_loss : 0.480714 
+2023-01-11 22:13:06,557 - [epoch:   3/ 30, batch:  9200/11216, ite: 15817, time: 204.402701] g_loss : 1.390336, d_loss : 0.481139 
+2023-01-11 22:16:13,029 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_16000_G_1.392556_D_0.480918.pth
+2023-01-11 22:16:30,669 - [epoch:   3/ 30, batch:  9600/11216, ite: 16017, time: 204.112094] g_loss : 1.314062, d_loss : 0.471653 
+2023-01-11 22:19:57,314 - [epoch:   3/ 30, batch: 10000/11216, ite: 16217, time: 206.644291] g_loss : 1.408162, d_loss : 0.478108 
+2023-01-11 22:23:19,987 - [epoch:   3/ 30, batch: 10400/11216, ite: 16417, time: 202.673152] g_loss : 1.398266, d_loss : 0.477284 
+2023-01-11 22:26:38,984 - [epoch:   3/ 30, batch: 10800/11216, ite: 16617, time: 198.997382] g_loss : 1.394920, d_loss : 0.478139 
+2023-01-11 22:30:02,855 - [epoch:   3/ 30, batch: 11200/11216, ite: 16817, time: 203.870526] g_loss : 1.401577, d_loss : 0.477589 
+2023-01-11 22:30:10,671 - [epoch:   4/ 30, batch:     0/11216, ite: 16825, time: 7.816818] g_loss : 1.401134, d_loss : 0.477664 
+2023-01-11 22:33:09,901 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_17000_G_1.397762_D_0.477957.pth
+2023-01-11 22:33:35,212 - [epoch:   4/ 30, batch:   400/11216, ite: 17025, time: 204.540855] g_loss : 1.447151, d_loss : 0.484600 
+2023-01-11 22:37:03,376 - [epoch:   4/ 30, batch:   800/11216, ite: 17225, time: 208.163413] g_loss : 1.399582, d_loss : 0.479576 
+2023-01-11 22:40:26,003 - [epoch:   4/ 30, batch:  1200/11216, ite: 17425, time: 202.627566] g_loss : 1.399298, d_loss : 0.478363 
+2023-01-11 22:43:54,151 - [epoch:   4/ 30, batch:  1600/11216, ite: 17625, time: 208.147427] g_loss : 1.390556, d_loss : 0.480137 
+2023-01-11 22:47:17,025 - [epoch:   4/ 30, batch:  2000/11216, ite: 17825, time: 202.874692] g_loss : 1.386492, d_loss : 0.479834 
+2023-01-11 22:50:14,032 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_18000_G_1.386493_D_0.478573.pth
+2023-01-11 22:50:38,588 - [epoch:   4/ 30, batch:  2400/11216, ite: 18025, time: 201.562430] g_loss : 1.392613, d_loss : 0.475464 
+2023-01-11 22:53:57,249 - [epoch:   4/ 30, batch:  2800/11216, ite: 18225, time: 198.660773] g_loss : 1.369245, d_loss : 0.462288 
+2023-01-11 22:57:17,575 - [epoch:   4/ 30, batch:  3200/11216, ite: 18425, time: 200.326427] g_loss : 1.379495, d_loss : 0.462685 
+2023-01-11 23:00:39,366 - [epoch:   4/ 30, batch:  3600/11216, ite: 18625, time: 201.790500] g_loss : 1.388159, d_loss : 0.464543 
+2023-01-11 23:04:06,543 - [epoch:   4/ 30, batch:  4000/11216, ite: 18825, time: 207.177795] g_loss : 1.385763, d_loss : 0.468537 
+2023-01-11 23:06:57,613 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_19000_G_1.389866_D_0.470117.pth
+2023-01-11 23:07:22,126 - [epoch:   4/ 30, batch:  4400/11216, ite: 19025, time: 195.582943] g_loss : 1.377835, d_loss : 0.475473 
+2023-01-11 23:10:41,097 - [epoch:   4/ 30, batch:  4800/11216, ite: 19225, time: 198.970755] g_loss : 1.372862, d_loss : 0.478900 
+2023-01-11 23:14:05,437 - [epoch:   4/ 30, batch:  5200/11216, ite: 19425, time: 204.339672] g_loss : 1.394524, d_loss : 0.477635 
+2023-01-11 23:17:31,323 - [epoch:   4/ 30, batch:  5600/11216, ite: 19625, time: 205.885890] g_loss : 1.390346, d_loss : 0.478102 
+2023-01-11 23:20:48,488 - [epoch:   4/ 30, batch:  6000/11216, ite: 19825, time: 197.165167] g_loss : 1.387285, d_loss : 0.478442 
+2023-01-11 23:23:47,132 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_20000_G_1.391418_D_0.478346.pth
+2023-01-11 23:24:12,426 - [epoch:   4/ 30, batch:  6400/11216, ite: 20025, time: 203.938055] g_loss : 1.438624, d_loss : 0.465809 
+2023-01-11 23:27:35,172 - [epoch:   4/ 30, batch:  6800/11216, ite: 20225, time: 202.746053] g_loss : 1.400620, d_loss : 0.474542 
+2023-01-11 23:31:00,800 - [epoch:   4/ 30, batch:  7200/11216, ite: 20425, time: 205.627932] g_loss : 1.403195, d_loss : 0.475591 
+2023-01-11 23:34:21,533 - [epoch:   4/ 30, batch:  7600/11216, ite: 20625, time: 200.733570] g_loss : 1.410505, d_loss : 0.474108 
+2023-01-11 23:37:41,677 - [epoch:   4/ 30, batch:  8000/11216, ite: 20825, time: 200.143131] g_loss : 1.398482, d_loss : 0.474870 
+2023-01-11 23:40:32,792 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_21000_G_1.396539_D_0.476583.pth
+2023-01-11 23:40:57,248 - [epoch:   4/ 30, batch:  8400/11216, ite: 21025, time: 195.571391] g_loss : 1.341498, d_loss : 0.481642 
+2023-01-11 23:44:17,639 - [epoch:   4/ 30, batch:  8800/11216, ite: 21225, time: 200.390844] g_loss : 1.378973, d_loss : 0.477510 
+2023-01-11 23:47:37,936 - [epoch:   4/ 30, batch:  9200/11216, ite: 21425, time: 200.297315] g_loss : 1.380100, d_loss : 0.478361 
+2023-01-11 23:50:56,911 - [epoch:   4/ 30, batch:  9600/11216, ite: 21625, time: 198.974592] g_loss : 1.382096, d_loss : 0.478629 
+2023-01-11 23:54:20,061 - [epoch:   4/ 30, batch: 10000/11216, ite: 21825, time: 203.149966] g_loss : 1.387800, d_loss : 0.478312 
+2023-01-11 23:57:17,196 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_22000_G_1.386012_D_0.478081.pth
+2023-01-11 23:57:42,792 - [epoch:   4/ 30, batch: 10400/11216, ite: 22025, time: 202.730992] g_loss : 1.421882, d_loss : 0.468245 
+2023-01-12 00:01:02,181 - [epoch:   4/ 30, batch: 10800/11216, ite: 22225, time: 199.389800] g_loss : 1.389093, d_loss : 0.477132 
+2023-01-12 00:04:26,867 - [epoch:   4/ 30, batch: 11200/11216, ite: 22425, time: 204.685284] g_loss : 1.403815, d_loss : 0.475758 
+2023-01-12 00:04:35,238 - [epoch:   5/ 30, batch:     0/11216, ite: 22433, time: 8.370847] g_loss : 1.402947, d_loss : 0.475689 
+2023-01-12 00:07:51,581 - [epoch:   5/ 30, batch:   400/11216, ite: 22633, time: 196.342963] g_loss : 1.399612, d_loss : 0.476893 
+2023-01-12 00:11:07,242 - [epoch:   5/ 30, batch:   800/11216, ite: 22833, time: 195.661722] g_loss : 1.396746, d_loss : 0.476919 
+2023-01-12 00:14:00,960 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_23000_G_1.397521_D_0.477281.pth
+2023-01-12 00:14:34,548 - [epoch:   5/ 30, batch:  1200/11216, ite: 23033, time: 207.305597] g_loss : 1.363623, d_loss : 0.462791 
+2023-01-12 00:18:00,855 - [epoch:   5/ 30, batch:  1600/11216, ite: 23233, time: 206.306677] g_loss : 1.369286, d_loss : 0.479587 
+2023-01-12 00:21:21,134 - [epoch:   5/ 30, batch:  2000/11216, ite: 23433, time: 200.279715] g_loss : 1.369497, d_loss : 0.478262 
+2023-01-12 00:24:34,149 - [epoch:   5/ 30, batch:  2400/11216, ite: 23633, time: 193.014656] g_loss : 1.374204, d_loss : 0.477487 
+2023-01-12 00:27:40,452 - [epoch:   5/ 30, batch:  2800/11216, ite: 23833, time: 186.302725] g_loss : 1.374189, d_loss : 0.477953 
+2023-01-12 00:30:15,876 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_24000_G_1.379901_D_0.477172.pth
+2023-01-12 00:30:46,529 - [epoch:   5/ 30, batch:  3200/11216, ite: 24033, time: 186.076895] g_loss : 1.365052, d_loss : 0.474130 
+2023-01-12 00:33:52,786 - [epoch:   5/ 30, batch:  3600/11216, ite: 24233, time: 186.257767] g_loss : 1.402679, d_loss : 0.472718 
+2023-01-12 00:36:59,557 - [epoch:   5/ 30, batch:  4000/11216, ite: 24433, time: 186.770723] g_loss : 1.390150, d_loss : 0.476717 
+2023-01-12 00:40:05,386 - [epoch:   5/ 30, batch:  4400/11216, ite: 24633, time: 185.829168] g_loss : 1.392520, d_loss : 0.477242 
+2023-01-12 00:43:11,218 - [epoch:   5/ 30, batch:  4800/11216, ite: 24833, time: 185.831551] g_loss : 1.387766, d_loss : 0.477378 
+2023-01-12 00:45:46,094 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_25000_G_1.393427_D_0.476760.pth
+2023-01-12 00:46:16,711 - [epoch:   5/ 30, batch:  5200/11216, ite: 25033, time: 185.493372] g_loss : 1.386943, d_loss : 0.466061 
+2023-01-12 00:49:22,707 - [epoch:   5/ 30, batch:  5600/11216, ite: 25233, time: 185.995722] g_loss : 1.370285, d_loss : 0.474947 
+2023-01-12 00:52:29,226 - [epoch:   5/ 30, batch:  6000/11216, ite: 25433, time: 186.518766] g_loss : 1.370264, d_loss : 0.476653 
+2023-01-12 00:55:34,892 - [epoch:   5/ 30, batch:  6400/11216, ite: 25633, time: 185.666206] g_loss : 1.381492, d_loss : 0.476974 
+2023-01-12 00:58:40,686 - [epoch:   5/ 30, batch:  6800/11216, ite: 25833, time: 185.793913] g_loss : 1.382695, d_loss : 0.476417 
+2023-01-12 01:01:15,937 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_26000_G_1.385570_D_0.476511.pth
+2023-01-12 01:01:46,563 - [epoch:   5/ 30, batch:  7200/11216, ite: 26033, time: 185.877029] g_loss : 1.405539, d_loss : 0.468830 
+2023-01-12 01:04:52,490 - [epoch:   5/ 30, batch:  7600/11216, ite: 26233, time: 185.927657] g_loss : 1.416560, d_loss : 0.469399 
+2023-01-12 01:07:59,077 - [epoch:   5/ 30, batch:  8000/11216, ite: 26433, time: 186.586251] g_loss : 1.388698, d_loss : 0.472602 
+2023-01-12 01:11:04,620 - [epoch:   5/ 30, batch:  8400/11216, ite: 26633, time: 185.542869] g_loss : 1.385674, d_loss : 0.475871 
+2023-01-12 01:14:10,538 - [epoch:   5/ 30, batch:  8800/11216, ite: 26833, time: 185.918661] g_loss : 1.383808, d_loss : 0.475931 
+2023-01-12 01:16:45,812 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_27000_G_1.384475_D_0.475870.pth
+2023-01-12 01:17:16,542 - [epoch:   5/ 30, batch:  9200/11216, ite: 27033, time: 186.004088] g_loss : 1.329682, d_loss : 0.486666 
+2023-01-12 01:20:22,460 - [epoch:   5/ 30, batch:  9600/11216, ite: 27233, time: 185.917743] g_loss : 1.376209, d_loss : 0.477580 
+2023-01-12 01:23:28,687 - [epoch:   5/ 30, batch: 10000/11216, ite: 27433, time: 186.227227] g_loss : 1.389463, d_loss : 0.476952 
+2023-01-12 01:26:34,884 - [epoch:   5/ 30, batch: 10400/11216, ite: 27633, time: 186.196629] g_loss : 1.386894, d_loss : 0.475505 
+2023-01-12 01:29:41,383 - [epoch:   5/ 30, batch: 10800/11216, ite: 27833, time: 186.499171] g_loss : 1.385394, d_loss : 0.475453 
+2023-01-12 01:32:16,543 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_28000_G_1.387530_D_0.474925.pth
+2023-01-12 01:32:47,110 - [epoch:   5/ 30, batch: 11200/11216, ite: 28033, time: 185.727449] g_loss : 1.522694, d_loss : 0.474970 
+2023-01-12 01:32:54,501 - [epoch:   6/ 30, batch:     0/11216, ite: 28041, time: 7.390078] g_loss : 1.488570, d_loss : 0.474746 
+2023-01-12 01:36:00,117 - [epoch:   6/ 30, batch:   400/11216, ite: 28241, time: 185.616759] g_loss : 1.406953, d_loss : 0.475283 
+2023-01-12 01:39:06,172 - [epoch:   6/ 30, batch:   800/11216, ite: 28441, time: 186.054952] g_loss : 1.397948, d_loss : 0.475168 
+2023-01-12 01:42:11,907 - [epoch:   6/ 30, batch:  1200/11216, ite: 28641, time: 185.734439] g_loss : 1.396010, d_loss : 0.475153 
+2023-01-12 01:45:17,544 - [epoch:   6/ 30, batch:  1600/11216, ite: 28841, time: 185.637619] g_loss : 1.388451, d_loss : 0.476478 
+2023-01-12 01:47:45,241 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_29000_G_1.387033_D_0.476280.pth
+2023-01-12 01:48:23,584 - [epoch:   6/ 30, batch:  2000/11216, ite: 29041, time: 186.040050] g_loss : 1.319516, d_loss : 0.476515 
+2023-01-12 01:51:29,278 - [epoch:   6/ 30, batch:  2400/11216, ite: 29241, time: 185.693793] g_loss : 1.371288, d_loss : 0.474412 
+2023-01-12 01:54:35,202 - [epoch:   6/ 30, batch:  2800/11216, ite: 29441, time: 185.924125] g_loss : 1.372678, d_loss : 0.475835 
+2023-01-12 01:57:40,854 - [epoch:   6/ 30, batch:  3200/11216, ite: 29641, time: 185.651233] g_loss : 1.377258, d_loss : 0.475177 
+2023-01-12 02:00:47,541 - [epoch:   6/ 30, batch:  3600/11216, ite: 29841, time: 186.687480] g_loss : 1.384800, d_loss : 0.474369 
+2023-01-12 02:03:15,720 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_30000_G_1.382087_D_0.475200.pth
+2023-01-12 02:03:53,770 - [epoch:   6/ 30, batch:  4000/11216, ite: 30041, time: 186.229368] g_loss : 1.400703, d_loss : 0.471471 
+2023-01-12 02:06:59,842 - [epoch:   6/ 30, batch:  4400/11216, ite: 30241, time: 186.072102] g_loss : 1.399280, d_loss : 0.474846 
+2023-01-12 02:10:05,769 - [epoch:   6/ 30, batch:  4800/11216, ite: 30441, time: 185.926618] g_loss : 1.385229, d_loss : 0.475541 
+2023-01-12 02:13:11,967 - [epoch:   6/ 30, batch:  5200/11216, ite: 30641, time: 186.198409] g_loss : 1.393265, d_loss : 0.474433 
+2023-01-12 02:16:18,198 - [epoch:   6/ 30, batch:  5600/11216, ite: 30841, time: 186.230751] g_loss : 1.385847, d_loss : 0.473519 
+2023-01-12 02:18:46,108 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_31000_G_1.385276_D_0.471442.pth
+2023-01-12 02:19:24,253 - [epoch:   6/ 30, batch:  6000/11216, ite: 31041, time: 186.055220] g_loss : 1.332236, d_loss : 0.447985 
+2023-01-12 02:22:30,470 - [epoch:   6/ 30, batch:  6400/11216, ite: 31241, time: 186.216554] g_loss : 1.386150, d_loss : 0.451512 
+2023-01-12 02:25:35,918 - [epoch:   6/ 30, batch:  6800/11216, ite: 31441, time: 185.448093] g_loss : 1.385309, d_loss : 0.452961 
+2023-01-12 02:28:42,403 - [epoch:   6/ 30, batch:  7200/11216, ite: 31641, time: 186.485205] g_loss : 1.388941, d_loss : 0.457108 
+2023-01-12 02:31:48,586 - [epoch:   6/ 30, batch:  7600/11216, ite: 31841, time: 186.182746] g_loss : 1.395193, d_loss : 0.459097 
+2023-01-12 02:34:16,582 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_32000_G_1.386985_D_0.461608.pth
+2023-01-12 02:34:54,398 - [epoch:   6/ 30, batch:  8000/11216, ite: 32041, time: 185.812073] g_loss : 1.403820, d_loss : 0.473025 
+2023-01-12 02:38:00,505 - [epoch:   6/ 30, batch:  8400/11216, ite: 32241, time: 186.107169] g_loss : 1.383593, d_loss : 0.479623 
+2023-01-12 02:41:07,594 - [epoch:   6/ 30, batch:  8800/11216, ite: 32441, time: 187.089142] g_loss : 1.382089, d_loss : 0.477654 
+2023-01-12 02:44:13,833 - [epoch:   6/ 30, batch:  9200/11216, ite: 32641, time: 186.238068] g_loss : 1.381351, d_loss : 0.477603 
+2023-01-12 02:47:19,931 - [epoch:   6/ 30, batch:  9600/11216, ite: 32841, time: 186.098737] g_loss : 1.382404, d_loss : 0.477111 
+2023-01-12 02:49:48,162 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_33000_G_1.387183_D_0.477108.pth
+2023-01-12 02:50:26,270 - [epoch:   6/ 30, batch: 10000/11216, ite: 33041, time: 186.338794] g_loss : 1.360899, d_loss : 0.472428 
+2023-01-12 02:53:31,258 - [epoch:   6/ 30, batch: 10400/11216, ite: 33241, time: 184.988046] g_loss : 1.379084, d_loss : 0.471649 
+2023-01-12 02:56:36,941 - [epoch:   6/ 30, batch: 10800/11216, ite: 33441, time: 185.682423] g_loss : 1.380313, d_loss : 0.472752 
+2023-01-12 02:59:42,904 - [epoch:   6/ 30, batch: 11200/11216, ite: 33641, time: 185.963099] g_loss : 1.390537, d_loss : 0.472348 
+2023-01-12 02:59:50,203 - [epoch:   7/ 30, batch:     0/11216, ite: 33649, time: 7.299548] g_loss : 1.390099, d_loss : 0.472299 
+2023-01-12 03:02:55,413 - [epoch:   7/ 30, batch:   400/11216, ite: 33849, time: 185.209441] g_loss : 1.388555, d_loss : 0.472759 
+2023-01-12 03:05:15,883 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_34000_G_1.386661_D_0.469764.pth
+2023-01-12 03:06:01,347 - [epoch:   7/ 30, batch:   800/11216, ite: 34049, time: 185.933939] g_loss : 1.356159, d_loss : 0.462793 
+2023-01-12 03:09:07,370 - [epoch:   7/ 30, batch:  1200/11216, ite: 34249, time: 186.023354] g_loss : 1.384111, d_loss : 0.452861 
+2023-01-12 03:12:13,334 - [epoch:   7/ 30, batch:  1600/11216, ite: 34449, time: 185.963846] g_loss : 1.405874, d_loss : 0.447624 
+2023-01-12 03:15:18,950 - [epoch:   7/ 30, batch:  2000/11216, ite: 34649, time: 185.615730] g_loss : 1.400638, d_loss : 0.449931 
+2023-01-12 03:18:24,608 - [epoch:   7/ 30, batch:  2400/11216, ite: 34849, time: 185.658278] g_loss : 1.400877, d_loss : 0.454123 
+2023-01-12 03:20:44,708 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_35000_G_1.397327_D_0.456445.pth
+2023-01-12 03:21:30,414 - [epoch:   7/ 30, batch:  2800/11216, ite: 35049, time: 185.806511] g_loss : 1.402076, d_loss : 0.483418 
+2023-01-12 03:24:36,366 - [epoch:   7/ 30, batch:  3200/11216, ite: 35249, time: 185.951861] g_loss : 1.396717, d_loss : 0.472381 
+2023-01-12 03:27:41,279 - [epoch:   7/ 30, batch:  3600/11216, ite: 35449, time: 184.912508] g_loss : 1.403966, d_loss : 0.471128 
+2023-01-12 03:30:47,178 - [epoch:   7/ 30, batch:  4000/11216, ite: 35649, time: 185.898881] g_loss : 1.396916, d_loss : 0.472988 
+2023-01-12 03:33:53,045 - [epoch:   7/ 30, batch:  4400/11216, ite: 35849, time: 185.867201] g_loss : 1.398044, d_loss : 0.472855 
+2023-01-12 03:36:13,363 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_36000_G_1.392689_D_0.473047.pth
+2023-01-12 03:36:59,109 - [epoch:   7/ 30, batch:  4800/11216, ite: 36049, time: 186.064506] g_loss : 1.409575, d_loss : 0.477889 
+2023-01-12 03:40:05,091 - [epoch:   7/ 30, batch:  5200/11216, ite: 36249, time: 185.981676] g_loss : 1.419556, d_loss : 0.471112 
+2023-01-12 03:43:11,218 - [epoch:   7/ 30, batch:  5600/11216, ite: 36449, time: 186.127068] g_loss : 1.399643, d_loss : 0.471750 
+2023-01-12 03:46:17,167 - [epoch:   7/ 30, batch:  6000/11216, ite: 36649, time: 185.949061] g_loss : 1.393063, d_loss : 0.472751 
+2023-01-12 03:49:22,824 - [epoch:   7/ 30, batch:  6400/11216, ite: 36849, time: 185.657186] g_loss : 1.397362, d_loss : 0.471605 
+2023-01-12 03:51:43,380 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_37000_G_1.396432_D_0.470347.pth
+2023-01-12 03:52:28,821 - [epoch:   7/ 30, batch:  6800/11216, ite: 37049, time: 185.996522] g_loss : 1.390149, d_loss : 0.448876 
+2023-01-12 03:55:34,569 - [epoch:   7/ 30, batch:  7200/11216, ite: 37249, time: 185.747872] g_loss : 1.408164, d_loss : 0.465073 
+2023-01-12 03:58:39,878 - [epoch:   7/ 30, batch:  7600/11216, ite: 37449, time: 185.309606] g_loss : 1.413160, d_loss : 0.465362 
+2023-01-12 04:01:46,061 - [epoch:   7/ 30, batch:  8000/11216, ite: 37649, time: 186.182927] g_loss : 1.395981, d_loss : 0.468124 
+2023-01-12 04:04:51,958 - [epoch:   7/ 30, batch:  8400/11216, ite: 37849, time: 185.897204] g_loss : 1.392933, d_loss : 0.471311 
+2023-01-12 04:07:12,053 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_38000_G_1.390011_D_0.471993.pth
+2023-01-12 04:07:57,672 - [epoch:   7/ 30, batch:  8800/11216, ite: 38049, time: 185.713434] g_loss : 1.401622, d_loss : 0.471676 
+2023-01-12 04:11:03,607 - [epoch:   7/ 30, batch:  9200/11216, ite: 38249, time: 185.935105] g_loss : 1.387308, d_loss : 0.474572 
+2023-01-12 04:14:09,031 - [epoch:   7/ 30, batch:  9600/11216, ite: 38449, time: 185.424369] g_loss : 1.386301, d_loss : 0.474974 
+2023-01-12 04:17:15,159 - [epoch:   7/ 30, batch: 10000/11216, ite: 38649, time: 186.127529] g_loss : 1.394004, d_loss : 0.475089 
+2023-01-12 04:20:20,506 - [epoch:   7/ 30, batch: 10400/11216, ite: 38849, time: 185.346953] g_loss : 1.390368, d_loss : 0.473453 
+2023-01-12 04:22:40,867 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_39000_G_1.389312_D_0.472969.pth
+2023-01-12 04:23:26,606 - [epoch:   7/ 30, batch: 10800/11216, ite: 39049, time: 186.099898] g_loss : 1.344348, d_loss : 0.465615 
+2023-01-12 04:26:31,667 - [epoch:   7/ 30, batch: 11200/11216, ite: 39249, time: 185.060907] g_loss : 1.394112, d_loss : 0.456418 
+2023-01-12 04:26:39,032 - [epoch:   8/ 30, batch:     0/11216, ite: 39257, time: 7.365828] g_loss : 1.392937, d_loss : 0.456392 
+2023-01-12 04:29:44,741 - [epoch:   8/ 30, batch:   400/11216, ite: 39457, time: 185.708631] g_loss : 1.386352, d_loss : 0.460808 
+2023-01-12 04:32:51,795 - [epoch:   8/ 30, batch:   800/11216, ite: 39657, time: 187.054312] g_loss : 1.386318, d_loss : 0.463847 
+2023-01-12 04:35:58,892 - [epoch:   8/ 30, batch:  1200/11216, ite: 39857, time: 187.096838] g_loss : 1.388547, d_loss : 0.465458 
+2023-01-12 04:38:13,097 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_40000_G_1.387448_D_0.467322.pth
+2023-01-12 04:39:06,487 - [epoch:   8/ 30, batch:  1600/11216, ite: 40057, time: 187.594797] g_loss : 1.337005, d_loss : 0.476151 
+2023-01-12 04:42:18,843 - [epoch:   8/ 30, batch:  2000/11216, ite: 40257, time: 192.356384] g_loss : 1.360926, d_loss : 0.473655 
+2023-01-12 04:45:30,492 - [epoch:   8/ 30, batch:  2400/11216, ite: 40457, time: 191.648128] g_loss : 1.371324, d_loss : 0.472672 
+2023-01-12 04:48:37,256 - [epoch:   8/ 30, batch:  2800/11216, ite: 40657, time: 186.764543] g_loss : 1.372238, d_loss : 0.473080 
+2023-01-12 04:51:43,601 - [epoch:   8/ 30, batch:  3200/11216, ite: 40857, time: 186.344633] g_loss : 1.375514, d_loss : 0.472397 
+2023-01-12 04:53:56,375 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_41000_G_1.381494_D_0.472242.pth
+2023-01-12 04:54:49,242 - [epoch:   8/ 30, batch:  3600/11216, ite: 41057, time: 185.641658] g_loss : 1.389382, d_loss : 0.467999 
+2023-01-12 04:57:53,769 - [epoch:   8/ 30, batch:  4000/11216, ite: 41257, time: 184.527057] g_loss : 1.378109, d_loss : 0.474065 
+2023-01-12 05:00:58,765 - [epoch:   8/ 30, batch:  4400/11216, ite: 41457, time: 184.996094] g_loss : 1.385307, d_loss : 0.473637 
+2023-01-12 05:04:03,857 - [epoch:   8/ 30, batch:  4800/11216, ite: 41657, time: 185.091112] g_loss : 1.378791, d_loss : 0.472631 
+2023-01-12 05:07:09,468 - [epoch:   8/ 30, batch:  5200/11216, ite: 41857, time: 185.611366] g_loss : 1.386163, d_loss : 0.467762 
+2023-01-12 05:09:21,767 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_42000_G_1.381728_D_0.467157.pth
+2023-01-12 05:10:14,430 - [epoch:   8/ 30, batch:  5600/11216, ite: 42057, time: 184.962564] g_loss : 1.394342, d_loss : 0.467445 
+2023-01-12 05:13:19,634 - [epoch:   8/ 30, batch:  6000/11216, ite: 42257, time: 185.203580] g_loss : 1.367177, d_loss : 0.468048 
+2023-01-12 05:16:24,734 - [epoch:   8/ 30, batch:  6400/11216, ite: 42457, time: 185.100386] g_loss : 1.377154, d_loss : 0.467410 
+2023-01-12 05:19:29,500 - [epoch:   8/ 30, batch:  6800/11216, ite: 42657, time: 184.766034] g_loss : 1.379026, d_loss : 0.468061 
+2023-01-12 05:22:34,559 - [epoch:   8/ 30, batch:  7200/11216, ite: 42857, time: 185.058240] g_loss : 1.402220, d_loss : 0.461556 
+2023-01-12 05:24:47,432 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_43000_G_1.406141_D_0.461409.pth
+2023-01-12 05:25:40,207 - [epoch:   8/ 30, batch:  7600/11216, ite: 43057, time: 185.648274] g_loss : 1.443072, d_loss : 0.463617 
+2023-01-12 05:28:45,171 - [epoch:   8/ 30, batch:  8000/11216, ite: 43257, time: 184.963624] g_loss : 1.380927, d_loss : 0.468518 
+2023-01-12 05:31:49,101 - [epoch:   8/ 30, batch:  8400/11216, ite: 43457, time: 183.930789] g_loss : 1.383205, d_loss : 0.471824 
+2023-01-12 05:34:54,286 - [epoch:   8/ 30, batch:  8800/11216, ite: 43657, time: 185.184965] g_loss : 1.383788, d_loss : 0.472286 
+2023-01-12 05:37:59,424 - [epoch:   8/ 30, batch:  9200/11216, ite: 43857, time: 185.137645] g_loss : 1.384012, d_loss : 0.472556 
+2023-01-12 05:40:12,234 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_44000_G_1.386867_D_0.472220.pth
+2023-01-12 05:41:04,807 - [epoch:   8/ 30, batch:  9600/11216, ite: 44057, time: 185.383404] g_loss : 1.358322, d_loss : 0.478472 
+2023-01-12 05:44:09,644 - [epoch:   8/ 30, batch: 10000/11216, ite: 44257, time: 184.836290] g_loss : 1.397906, d_loss : 0.473112 
+2023-01-12 05:47:14,990 - [epoch:   8/ 30, batch: 10400/11216, ite: 44457, time: 185.346191] g_loss : 1.392894, d_loss : 0.471243 
+2023-01-12 05:50:19,369 - [epoch:   8/ 30, batch: 10800/11216, ite: 44657, time: 184.378846] g_loss : 1.390227, d_loss : 0.471425 
+2023-01-12 05:53:24,191 - [epoch:   8/ 30, batch: 11200/11216, ite: 44857, time: 184.822387] g_loss : 1.398221, d_loss : 0.470298 
+2023-01-12 05:53:31,798 - [epoch:   9/ 30, batch:     0/11216, ite: 44865, time: 7.606922] g_loss : 1.397791, d_loss : 0.470359 
+2023-01-12 05:55:36,931 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_45000_G_1.391118_D_0.470506.pth
+2023-01-12 05:56:36,797 - [epoch:   9/ 30, batch:   400/11216, ite: 45065, time: 184.999303] g_loss : 1.453041, d_loss : 0.469848 
+2023-01-12 05:59:41,868 - [epoch:   9/ 30, batch:   800/11216, ite: 45265, time: 185.070220] g_loss : 1.401770, d_loss : 0.471120 
+2023-01-12 06:02:46,977 - [epoch:   9/ 30, batch:  1200/11216, ite: 45465, time: 185.109671] g_loss : 1.400827, d_loss : 0.470309 
+2023-01-12 06:05:51,591 - [epoch:   9/ 30, batch:  1600/11216, ite: 45665, time: 184.613813] g_loss : 1.389939, d_loss : 0.472021 
+2023-01-12 06:08:56,432 - [epoch:   9/ 30, batch:  2000/11216, ite: 45865, time: 184.840890] g_loss : 1.385929, d_loss : 0.471913 
+2023-01-12 06:11:01,194 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_46000_G_1.388369_D_0.470960.pth
+2023-01-12 06:12:01,298 - [epoch:   9/ 30, batch:  2400/11216, ite: 46065, time: 184.866307] g_loss : 1.346319, d_loss : 0.473735 
+2023-01-12 06:15:06,455 - [epoch:   9/ 30, batch:  2800/11216, ite: 46265, time: 185.156808] g_loss : 1.367384, d_loss : 0.467722 
+2023-01-12 06:18:11,813 - [epoch:   9/ 30, batch:  3200/11216, ite: 46465, time: 185.358268] g_loss : 1.371663, d_loss : 0.463195 
+2023-01-12 06:21:16,933 - [epoch:   9/ 30, batch:  3600/11216, ite: 46665, time: 185.120034] g_loss : 1.382208, d_loss : 0.463528 
+2023-01-12 06:24:21,734 - [epoch:   9/ 30, batch:  4000/11216, ite: 46865, time: 184.800640] g_loss : 1.381049, d_loss : 0.465588 
+2023-01-12 06:26:26,818 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_47000_G_1.383607_D_0.466195.pth
+2023-01-12 06:27:27,079 - [epoch:   9/ 30, batch:  4400/11216, ite: 47065, time: 185.345500] g_loss : 1.388557, d_loss : 0.472278 
+2023-01-12 06:30:31,728 - [epoch:   9/ 30, batch:  4800/11216, ite: 47265, time: 184.648587] g_loss : 1.373322, d_loss : 0.472347 
+2023-01-12 06:33:37,114 - [epoch:   9/ 30, batch:  5200/11216, ite: 47465, time: 185.385682] g_loss : 1.391312, d_loss : 0.470403 
+2023-01-12 06:36:42,620 - [epoch:   9/ 30, batch:  5600/11216, ite: 47665, time: 185.506030] g_loss : 1.384253, d_loss : 0.470971 
+2023-01-12 06:39:47,559 - [epoch:   9/ 30, batch:  6000/11216, ite: 47865, time: 184.939297] g_loss : 1.381166, d_loss : 0.471524 
+2023-01-12 06:41:53,095 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_48000_G_1.384892_D_0.471819.pth
+2023-01-12 06:42:52,917 - [epoch:   9/ 30, batch:  6400/11216, ite: 48065, time: 185.358170] g_loss : 1.394775, d_loss : 0.466287 
+2023-01-12 06:45:57,539 - [epoch:   9/ 30, batch:  6800/11216, ite: 48265, time: 184.622175] g_loss : 1.386891, d_loss : 0.469211 
+2023-01-12 06:49:02,227 - [epoch:   9/ 30, batch:  7200/11216, ite: 48465, time: 184.687752] g_loss : 1.392408, d_loss : 0.469638 
+2023-01-12 06:52:06,971 - [epoch:   9/ 30, batch:  7600/11216, ite: 48665, time: 184.743421] g_loss : 1.400191, d_loss : 0.468527 
+2023-01-12 06:55:12,183 - [epoch:   9/ 30, batch:  8000/11216, ite: 48865, time: 185.212000] g_loss : 1.389565, d_loss : 0.469262 
+2023-01-12 06:57:16,825 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_49000_G_1.387313_D_0.470240.pth
+2023-01-12 06:58:17,132 - [epoch:   9/ 30, batch:  8400/11216, ite: 49065, time: 184.949630] g_loss : 1.382907, d_loss : 0.476531 
+2023-01-12 07:01:22,459 - [epoch:   9/ 30, batch:  8800/11216, ite: 49265, time: 185.326275] g_loss : 1.378601, d_loss : 0.473116 
+2023-01-12 07:04:27,182 - [epoch:   9/ 30, batch:  9200/11216, ite: 49465, time: 184.723441] g_loss : 1.381106, d_loss : 0.472042 
+2023-01-12 07:07:32,253 - [epoch:   9/ 30, batch:  9600/11216, ite: 49665, time: 185.071373] g_loss : 1.381645, d_loss : 0.471707 
+2023-01-12 07:10:36,703 - [epoch:   9/ 30, batch: 10000/11216, ite: 49865, time: 184.449735] g_loss : 1.386318, d_loss : 0.471708 
+2023-01-12 07:12:42,083 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_50000_G_1.387183_D_0.471283.pth
+2023-01-12 07:13:42,488 - [epoch:   9/ 30, batch: 10400/11216, ite: 50065, time: 185.785381] g_loss : 1.356019, d_loss : 0.464539 
+2023-01-12 07:16:47,516 - [epoch:   9/ 30, batch: 10800/11216, ite: 50265, time: 185.027305] g_loss : 1.373714, d_loss : 0.468859 
+2023-01-12 07:19:52,713 - [epoch:   9/ 30, batch: 11200/11216, ite: 50465, time: 185.196993] g_loss : 1.391233, d_loss : 0.468125 
+2023-01-12 07:20:00,232 - [epoch:  10/ 30, batch:     0/11216, ite: 50473, time: 7.518783] g_loss : 1.390588, d_loss : 0.468145 
+2023-01-12 07:23:05,443 - [epoch:  10/ 30, batch:   400/11216, ite: 50673, time: 185.211295] g_loss : 1.388170, d_loss : 0.468898 
+2023-01-12 07:26:09,983 - [epoch:  10/ 30, batch:   800/11216, ite: 50873, time: 184.540611] g_loss : 1.387602, d_loss : 0.469207 
+2023-01-12 07:28:07,786 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_51000_G_1.387755_D_0.469562.pth
+2023-01-12 07:29:15,229 - [epoch:  10/ 30, batch:  1200/11216, ite: 51073, time: 185.245456] g_loss : 1.395245, d_loss : 0.464393 
+2023-01-12 07:32:19,942 - [epoch:  10/ 30, batch:  1600/11216, ite: 51273, time: 184.713293] g_loss : 1.371962, d_loss : 0.471361 
+2023-01-12 07:35:25,006 - [epoch:  10/ 30, batch:  2000/11216, ite: 51473, time: 185.063539] g_loss : 1.369350, d_loss : 0.471076 
+2023-01-12 07:38:29,922 - [epoch:  10/ 30, batch:  2400/11216, ite: 51673, time: 184.916294] g_loss : 1.372761, d_loss : 0.470544 
+2023-01-12 07:41:34,484 - [epoch:  10/ 30, batch:  2800/11216, ite: 51873, time: 184.562166] g_loss : 1.371973, d_loss : 0.470809 
+2023-01-12 07:43:32,362 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_52000_G_1.372936_D_0.470589.pth
+2023-01-12 07:44:40,110 - [epoch:  10/ 30, batch:  3200/11216, ite: 52073, time: 185.625485] g_loss : 1.390631, d_loss : 0.466287 
+2023-01-12 07:47:45,307 - [epoch:  10/ 30, batch:  3600/11216, ite: 52273, time: 185.197022] g_loss : 1.403490, d_loss : 0.466024 
+2023-01-12 07:50:49,809 - [epoch:  10/ 30, batch:  4000/11216, ite: 52473, time: 184.502167] g_loss : 1.391188, d_loss : 0.468809 
+2023-01-12 07:53:54,644 - [epoch:  10/ 30, batch:  4400/11216, ite: 52673, time: 184.835311] g_loss : 1.392594, d_loss : 0.469084 
+2023-01-12 07:56:59,417 - [epoch:  10/ 30, batch:  4800/11216, ite: 52873, time: 184.773100] g_loss : 1.387153, d_loss : 0.469401 
+2023-01-12 07:58:57,273 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_53000_G_1.394051_D_0.468923.pth
+2023-01-12 08:00:04,758 - [epoch:  10/ 30, batch:  5200/11216, ite: 53073, time: 185.340442] g_loss : 1.369429, d_loss : 0.467431 
+2023-01-12 08:03:09,468 - [epoch:  10/ 30, batch:  5600/11216, ite: 53273, time: 184.709836] g_loss : 1.367510, d_loss : 0.469046 
+2023-01-12 08:06:14,489 - [epoch:  10/ 30, batch:  6000/11216, ite: 53473, time: 185.021112] g_loss : 1.368948, d_loss : 0.469897 
+2023-01-12 08:09:19,731 - [epoch:  10/ 30, batch:  6400/11216, ite: 53673, time: 185.242487] g_loss : 1.379488, d_loss : 0.469731 
+2023-01-12 08:12:24,885 - [epoch:  10/ 30, batch:  6800/11216, ite: 53873, time: 185.153845] g_loss : 1.380650, d_loss : 0.469449 
+2023-01-12 08:14:22,358 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_54000_G_1.379907_D_0.469374.pth
+2023-01-12 08:15:29,903 - [epoch:  10/ 30, batch:  7200/11216, ite: 54073, time: 185.017819] g_loss : 1.442184, d_loss : 0.467682 
+2023-01-12 08:18:34,684 - [epoch:  10/ 30, batch:  7600/11216, ite: 54273, time: 184.781319] g_loss : 1.424689, d_loss : 0.464962 
+2023-01-12 08:21:39,486 - [epoch:  10/ 30, batch:  8000/11216, ite: 54473, time: 184.801628] g_loss : 1.394668, d_loss : 0.467047 
+2023-01-12 08:24:44,312 - [epoch:  10/ 30, batch:  8400/11216, ite: 54673, time: 184.826445] g_loss : 1.389654, d_loss : 0.469384 
+2023-01-12 08:27:50,360 - [epoch:  10/ 30, batch:  8800/11216, ite: 54873, time: 186.047666] g_loss : 1.386794, d_loss : 0.469428 
+2023-01-12 08:29:48,465 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_55000_G_1.386313_D_0.469574.pth
+2023-01-12 08:30:56,422 - [epoch:  10/ 30, batch:  9200/11216, ite: 55073, time: 186.062471] g_loss : 1.368406, d_loss : 0.470441 
+2023-01-12 08:34:03,168 - [epoch:  10/ 30, batch:  9600/11216, ite: 55273, time: 186.745769] g_loss : 1.398275, d_loss : 0.466096 
+2023-01-12 08:37:07,727 - [epoch:  10/ 30, batch: 10000/11216, ite: 55473, time: 184.559189] g_loss : 1.410111, d_loss : 0.458236 
+2023-01-12 08:40:12,573 - [epoch:  10/ 30, batch: 10400/11216, ite: 55673, time: 184.845724] g_loss : 1.399178, d_loss : 0.455397 
+2023-01-12 08:43:17,745 - [epoch:  10/ 30, batch: 10800/11216, ite: 55873, time: 185.171992] g_loss : 1.393139, d_loss : 0.453702 
+2023-01-12 08:45:14,966 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_56000_G_1.393320_D_0.453908.pth
+2023-01-12 08:46:22,604 - [epoch:  10/ 30, batch: 11200/11216, ite: 56073, time: 184.858884] g_loss : 1.447714, d_loss : 0.466559 
+2023-01-12 08:46:29,982 - [epoch:  11/ 30, batch:     0/11216, ite: 56081, time: 7.378301] g_loss : 1.438385, d_loss : 0.466586 
+2023-01-12 08:49:37,249 - [epoch:  11/ 30, batch:   400/11216, ite: 56281, time: 187.267107] g_loss : 1.398260, d_loss : 0.467524 
+2023-01-12 08:52:41,730 - [epoch:  11/ 30, batch:   800/11216, ite: 56481, time: 184.480402] g_loss : 1.393184, d_loss : 0.468154 
+2023-01-12 08:55:46,012 - [epoch:  11/ 30, batch:  1200/11216, ite: 56681, time: 184.282117] g_loss : 1.392955, d_loss : 0.468404 
+2023-01-12 08:58:50,923 - [epoch:  11/ 30, batch:  1600/11216, ite: 56881, time: 184.911064] g_loss : 1.387049, d_loss : 0.469883 
+2023-01-12 09:00:41,073 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_57000_G_1.385089_D_0.469898.pth
+2023-01-12 09:01:55,765 - [epoch:  11/ 30, batch:  2000/11216, ite: 57081, time: 184.841938] g_loss : 1.369935, d_loss : 0.469909 
+2023-01-12 09:05:00,617 - [epoch:  11/ 30, batch:  2400/11216, ite: 57281, time: 184.851859] g_loss : 1.371744, d_loss : 0.469191 
+2023-01-12 09:08:05,908 - [epoch:  11/ 30, batch:  2800/11216, ite: 57481, time: 185.291751] g_loss : 1.369165, d_loss : 0.467619 
+2023-01-12 09:11:11,830 - [epoch:  11/ 30, batch:  3200/11216, ite: 57681, time: 185.921157] g_loss : 1.377336, d_loss : 0.463132 
+2023-01-12 09:14:19,795 - [epoch:  11/ 30, batch:  3600/11216, ite: 57881, time: 187.965046] g_loss : 1.384099, d_loss : 0.461822 
+2023-01-12 09:16:11,138 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_58000_G_1.385615_D_0.462698.pth
+2023-01-12 09:17:26,346 - [epoch:  11/ 30, batch:  4000/11216, ite: 58081, time: 186.551474] g_loss : 1.339671, d_loss : 0.469432 
+2023-01-12 09:20:31,671 - [epoch:  11/ 30, batch:  4400/11216, ite: 58281, time: 185.324386] g_loss : 1.379274, d_loss : 0.470302 
+2023-01-12 09:23:36,783 - [epoch:  11/ 30, batch:  4800/11216, ite: 58481, time: 185.112694] g_loss : 1.376935, d_loss : 0.468730 
+2023-01-12 09:26:41,725 - [epoch:  11/ 30, batch:  5200/11216, ite: 58681, time: 184.942123] g_loss : 1.387037, d_loss : 0.466539 
+2023-01-12 09:29:47,194 - [epoch:  11/ 30, batch:  5600/11216, ite: 58881, time: 185.468690] g_loss : 1.382796, d_loss : 0.465953 
+2023-01-12 09:31:37,086 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_59000_G_1.383790_D_0.465935.pth
+2023-01-12 09:32:52,166 - [epoch:  11/ 30, batch:  6000/11216, ite: 59081, time: 184.971519] g_loss : 1.337395, d_loss : 0.473896 
+2023-01-12 09:35:57,839 - [epoch:  11/ 30, batch:  6400/11216, ite: 59281, time: 185.673385] g_loss : 1.386776, d_loss : 0.470076 
+2023-01-12 09:39:04,069 - [epoch:  11/ 30, batch:  6800/11216, ite: 59481, time: 186.229768] g_loss : 1.386272, d_loss : 0.468693 
+2023-01-12 09:42:10,619 - [epoch:  11/ 30, batch:  7200/11216, ite: 59681, time: 186.549950] g_loss : 1.390463, d_loss : 0.468470 
+2023-01-12 09:45:17,018 - [epoch:  11/ 30, batch:  7600/11216, ite: 59881, time: 186.399615] g_loss : 1.397078, d_loss : 0.467181 
+2023-01-12 09:47:08,384 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_60000_G_1.391290_D_0.467429.pth
+2023-01-12 09:48:23,681 - [epoch:  11/ 30, batch:  8000/11216, ite: 60081, time: 186.663102] g_loss : 1.361353, d_loss : 0.467506 
+2023-01-12 09:51:29,587 - [epoch:  11/ 30, batch:  8400/11216, ite: 60281, time: 185.906035] g_loss : 1.378918, d_loss : 0.471979 
+2023-01-12 09:54:35,868 - [epoch:  11/ 30, batch:  8800/11216, ite: 60481, time: 186.280180] g_loss : 1.379772, d_loss : 0.470374 
+2023-01-12 09:57:41,817 - [epoch:  11/ 30, batch:  9200/11216, ite: 60681, time: 185.949680] g_loss : 1.379388, d_loss : 0.470077 
+2023-01-12 10:00:52,045 - [epoch:  11/ 30, batch:  9600/11216, ite: 60881, time: 190.228041] g_loss : 1.380223, d_loss : 0.469722 
+2023-01-12 10:02:46,628 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_61000_G_1.382232_D_0.469479.pth
+2023-01-12 10:04:03,256 - [epoch:  11/ 30, batch: 10000/11216, ite: 61081, time: 191.210856] g_loss : 1.405675, d_loss : 0.472280 
+2023-01-12 10:07:12,086 - [epoch:  11/ 30, batch: 10400/11216, ite: 61281, time: 188.830215] g_loss : 1.388690, d_loss : 0.467501 
+2023-01-12 10:10:22,698 - [epoch:  11/ 30, batch: 10800/11216, ite: 61481, time: 190.612130] g_loss : 1.384621, d_loss : 0.467540 
+2023-01-12 10:13:33,862 - [epoch:  11/ 30, batch: 11200/11216, ite: 61681, time: 191.163677] g_loss : 1.393640, d_loss : 0.466829 
+2023-01-12 10:13:41,401 - [epoch:  12/ 30, batch:     0/11216, ite: 61689, time: 7.539240] g_loss : 1.393189, d_loss : 0.466792 
+2023-01-12 10:16:51,546 - [epoch:  12/ 30, batch:   400/11216, ite: 61889, time: 190.144933] g_loss : 1.389388, d_loss : 0.465517 
+2023-01-12 10:18:38,173 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_62000_G_1.388466_D_0.465024.pth
+2023-01-12 10:20:03,213 - [epoch:  12/ 30, batch:   800/11216, ite: 62089, time: 191.667024] g_loss : 1.384755, d_loss : 0.453967 
+2023-01-12 10:23:14,691 - [epoch:  12/ 30, batch:  1200/11216, ite: 62289, time: 191.477900] g_loss : 1.383084, d_loss : 0.458288 
+2023-01-12 10:26:24,491 - [epoch:  12/ 30, batch:  1600/11216, ite: 62489, time: 189.799473] g_loss : 1.373569, d_loss : 0.460318 
+2023-01-12 10:29:35,868 - [epoch:  12/ 30, batch:  2000/11216, ite: 62689, time: 191.377563] g_loss : 1.369812, d_loss : 0.460900 
+2023-01-12 10:32:45,905 - [epoch:  12/ 30, batch:  2400/11216, ite: 62889, time: 190.036359] g_loss : 1.372145, d_loss : 0.462319 
+2023-01-12 10:34:31,768 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_63000_G_1.370783_D_0.462993.pth
+2023-01-12 10:35:56,194 - [epoch:  12/ 30, batch:  2800/11216, ite: 63089, time: 190.289625] g_loss : 1.390859, d_loss : 0.468963 
+2023-01-12 10:39:05,902 - [epoch:  12/ 30, batch:  3200/11216, ite: 63289, time: 189.708192] g_loss : 1.387947, d_loss : 0.467303 
+2023-01-12 10:42:16,847 - [epoch:  12/ 30, batch:  3600/11216, ite: 63489, time: 190.944914] g_loss : 1.397059, d_loss : 0.466451 
+2023-01-12 10:45:28,155 - [epoch:  12/ 30, batch:  4000/11216, ite: 63689, time: 191.307511] g_loss : 1.390754, d_loss : 0.467639 
+2023-01-12 10:48:38,147 - [epoch:  12/ 30, batch:  4400/11216, ite: 63889, time: 189.992160] g_loss : 1.392103, d_loss : 0.467873 
+2023-01-12 10:50:23,260 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_64000_G_1.386765_D_0.467775.pth
+2023-01-12 10:51:47,720 - [epoch:  12/ 30, batch:  4800/11216, ite: 64089, time: 189.572865] g_loss : 1.402652, d_loss : 0.470691 
+2023-01-12 10:54:58,139 - [epoch:  12/ 30, batch:  5200/11216, ite: 64289, time: 190.419327] g_loss : 1.411546, d_loss : 0.466471 
+2023-01-12 10:58:07,233 - [epoch:  12/ 30, batch:  5600/11216, ite: 64489, time: 189.094174] g_loss : 1.393444, d_loss : 0.467147 
+2023-01-12 11:01:17,804 - [epoch:  12/ 30, batch:  6000/11216, ite: 64689, time: 190.570383] g_loss : 1.387021, d_loss : 0.467517 
+2023-01-12 11:04:28,520 - [epoch:  12/ 30, batch:  6400/11216, ite: 64889, time: 190.716577] g_loss : 1.391093, d_loss : 0.467655 
+2023-01-12 11:06:13,735 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_65000_G_1.392316_D_0.467615.pth
+2023-01-12 11:07:37,888 - [epoch:  12/ 30, batch:  6800/11216, ite: 65089, time: 189.367980] g_loss : 1.366578, d_loss : 0.463129 
+2023-01-12 11:10:46,853 - [epoch:  12/ 30, batch:  7200/11216, ite: 65289, time: 188.964648] g_loss : 1.390528, d_loss : 0.463587 
+2023-01-12 11:13:57,932 - [epoch:  12/ 30, batch:  7600/11216, ite: 65489, time: 191.079020] g_loss : 1.402287, d_loss : 0.461425 
+2023-01-12 11:17:07,854 - [epoch:  12/ 30, batch:  8000/11216, ite: 65689, time: 189.922443] g_loss : 1.388388, d_loss : 0.462748 
+2023-01-12 11:20:18,083 - [epoch:  12/ 30, batch:  8400/11216, ite: 65889, time: 190.228109] g_loss : 1.386367, d_loss : 0.464549 
+2023-01-12 11:22:01,947 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_66000_G_1.384574_D_0.465199.pth
+2023-01-12 11:23:25,364 - [epoch:  12/ 30, batch:  8800/11216, ite: 66089, time: 187.281370] g_loss : 1.388845, d_loss : 0.462356 
+2023-01-12 11:26:34,279 - [epoch:  12/ 30, batch:  9200/11216, ite: 66289, time: 188.915148] g_loss : 1.383036, d_loss : 0.465766 
+2023-01-12 11:29:41,924 - [epoch:  12/ 30, batch:  9600/11216, ite: 66489, time: 187.645300] g_loss : 1.383328, d_loss : 0.466393 
+2023-01-12 11:32:50,132 - [epoch:  12/ 30, batch: 10000/11216, ite: 66689, time: 188.207482] g_loss : 1.388337, d_loss : 0.467077 
+2023-01-12 11:35:57,993 - [epoch:  12/ 30, batch: 10400/11216, ite: 66889, time: 187.860675] g_loss : 1.386535, d_loss : 0.466541 
+2023-01-12 11:37:42,630 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_67000_G_1.387429_D_0.466620.pth
+2023-01-12 11:39:06,449 - [epoch:  12/ 30, batch: 10800/11216, ite: 67089, time: 188.455935] g_loss : 1.362628, d_loss : 0.468729 
+2023-01-12 11:42:15,418 - [epoch:  12/ 30, batch: 11200/11216, ite: 67289, time: 188.969282] g_loss : 1.399059, d_loss : 0.465849 
+2023-01-12 11:42:23,364 - [epoch:  13/ 30, batch:     0/11216, ite: 67297, time: 7.946031] g_loss : 1.397874, d_loss : 0.465873 
+2023-01-12 11:45:32,573 - [epoch:  13/ 30, batch:   400/11216, ite: 67497, time: 189.209436] g_loss : 1.390821, d_loss : 0.466263 
+2023-01-12 11:48:41,591 - [epoch:  13/ 30, batch:   800/11216, ite: 67697, time: 189.017935] g_loss : 1.389108, d_loss : 0.466636 
+2023-01-12 11:51:53,029 - [epoch:  13/ 30, batch:  1200/11216, ite: 67897, time: 191.437681] g_loss : 1.388726, d_loss : 0.466597 
+2023-01-12 11:53:30,494 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_68000_G_1.385534_D_0.467236.pth
+2023-01-12 11:55:02,451 - [epoch:  13/ 30, batch:  1600/11216, ite: 68097, time: 189.422174] g_loss : 1.368933, d_loss : 0.469863 
+2023-01-12 11:58:12,295 - [epoch:  13/ 30, batch:  2000/11216, ite: 68297, time: 189.843510] g_loss : 1.364165, d_loss : 0.461014 
+2023-01-12 12:01:24,723 - [epoch:  13/ 30, batch:  2400/11216, ite: 68497, time: 192.428649] g_loss : 1.370648, d_loss : 0.461620 
+2023-01-12 12:04:35,335 - [epoch:  13/ 30, batch:  2800/11216, ite: 68697, time: 190.611899] g_loss : 1.371481, d_loss : 0.463370 
+2023-01-12 12:07:46,099 - [epoch:  13/ 30, batch:  3200/11216, ite: 68897, time: 190.763363] g_loss : 1.374108, d_loss : 0.463813 
+2023-01-12 12:09:24,554 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_69000_G_1.378502_D_0.463684.pth
+2023-01-12 12:10:56,587 - [epoch:  13/ 30, batch:  3600/11216, ite: 69097, time: 190.488401] g_loss : 1.404631, d_loss : 0.461875 
+2023-01-12 12:14:06,971 - [epoch:  13/ 30, batch:  4000/11216, ite: 69297, time: 190.383679] g_loss : 1.376800, d_loss : 0.465636 
+2023-01-12 12:17:16,990 - [epoch:  13/ 30, batch:  4400/11216, ite: 69497, time: 190.019197] g_loss : 1.377036, d_loss : 0.457129 
+2023-01-12 12:20:27,888 - [epoch:  13/ 30, batch:  4800/11216, ite: 69697, time: 190.898011] g_loss : 1.371977, d_loss : 0.455159 
+2023-01-12 12:23:38,278 - [epoch:  13/ 30, batch:  5200/11216, ite: 69897, time: 190.390158] g_loss : 1.380908, d_loss : 0.455110 
+2023-01-12 12:25:15,417 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_70000_G_1.377444_D_0.455047.pth
+2023-01-12 12:26:47,279 - [epoch:  13/ 30, batch:  5600/11216, ite: 70097, time: 189.001346] g_loss : 1.392844, d_loss : 0.461735 
+2023-01-12 12:29:56,408 - [epoch:  13/ 30, batch:  6000/11216, ite: 70297, time: 189.128381] g_loss : 1.379927, d_loss : 0.463888 
+2023-01-12 12:33:06,628 - [epoch:  13/ 30, batch:  6400/11216, ite: 70497, time: 190.220576] g_loss : 1.389587, d_loss : 0.465186 
+2023-01-12 12:36:17,426 - [epoch:  13/ 30, batch:  6800/11216, ite: 70697, time: 190.797954] g_loss : 1.388070, d_loss : 0.465327 
+2023-01-12 12:39:29,916 - [epoch:  13/ 30, batch:  7200/11216, ite: 70897, time: 192.490073] g_loss : 1.390484, d_loss : 0.465502 
+2023-01-12 12:41:06,899 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_71000_G_1.390985_D_0.465350.pth
+2023-01-12 12:42:39,419 - [epoch:  13/ 30, batch:  7600/11216, ite: 71097, time: 189.502524] g_loss : 1.443276, d_loss : 0.460892 
+2023-01-12 12:45:51,666 - [epoch:  13/ 30, batch:  8000/11216, ite: 71297, time: 192.247388] g_loss : 1.383088, d_loss : 0.464805 
+2023-01-12 12:49:02,549 - [epoch:  13/ 30, batch:  8400/11216, ite: 71497, time: 190.882703] g_loss : 1.381933, d_loss : 0.467248 
+2023-01-12 12:52:14,050 - [epoch:  13/ 30, batch:  8800/11216, ite: 71697, time: 191.501179] g_loss : 1.380812, d_loss : 0.466939 
+2023-01-12 12:55:23,207 - [epoch:  13/ 30, batch:  9200/11216, ite: 71897, time: 189.157407] g_loss : 1.382055, d_loss : 0.467391 
+2023-01-12 12:57:00,636 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_72000_G_1.379780_D_0.466698.pth
+2023-01-12 12:58:34,992 - [epoch:  13/ 30, batch:  9600/11216, ite: 72097, time: 191.784277] g_loss : 1.398594, d_loss : 0.470276 
+2023-01-12 13:01:43,425 - [epoch:  13/ 30, batch: 10000/11216, ite: 72297, time: 188.433411] g_loss : 1.400455, d_loss : 0.467941 
+2023-01-12 13:04:51,110 - [epoch:  13/ 30, batch: 10400/11216, ite: 72497, time: 187.685088] g_loss : 1.392424, d_loss : 0.466528 
+2023-01-12 13:07:59,534 - [epoch:  13/ 30, batch: 10800/11216, ite: 72697, time: 188.423517] g_loss : 1.389126, d_loss : 0.466506 
+2023-01-12 13:11:08,886 - [epoch:  13/ 30, batch: 11200/11216, ite: 72897, time: 189.351960] g_loss : 1.394951, d_loss : 0.465893 
+2023-01-12 13:11:16,355 - [epoch:  14/ 30, batch:     0/11216, ite: 72905, time: 7.468613] g_loss : 1.394606, d_loss : 0.465912 
+2023-01-12 13:12:47,117 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_73000_G_1.390368_D_0.465896.pth
+2023-01-12 13:14:26,509 - [epoch:  14/ 30, batch:   400/11216, ite: 73105, time: 190.154236] g_loss : 1.404901, d_loss : 0.466278 
+2023-01-12 13:17:34,786 - [epoch:  14/ 30, batch:   800/11216, ite: 73305, time: 188.277656] g_loss : 1.392022, d_loss : 0.466003 
+2023-01-12 13:20:43,794 - [epoch:  14/ 30, batch:  1200/11216, ite: 73505, time: 189.008267] g_loss : 1.388966, d_loss : 0.466341 
+2023-01-12 13:23:50,519 - [epoch:  14/ 30, batch:  1600/11216, ite: 73705, time: 186.724441] g_loss : 1.381524, d_loss : 0.467340 
+2023-01-12 13:26:56,611 - [epoch:  14/ 30, batch:  2000/11216, ite: 73905, time: 186.091970] g_loss : 1.378098, d_loss : 0.466470 
+2023-01-12 13:28:25,959 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_74000_G_1.381383_D_0.465398.pth
+2023-01-12 13:30:04,518 - [epoch:  14/ 30, batch:  2400/11216, ite: 74105, time: 187.906856] g_loss : 1.349316, d_loss : 0.467849 
+2023-01-12 13:33:11,323 - [epoch:  14/ 30, batch:  2800/11216, ite: 74305, time: 186.805098] g_loss : 1.364865, d_loss : 0.466632 
+2023-01-12 13:36:18,556 - [epoch:  14/ 30, batch:  3200/11216, ite: 74505, time: 187.233185] g_loss : 1.373024, d_loss : 0.465291 
+2023-01-12 13:39:25,530 - [epoch:  14/ 30, batch:  3600/11216, ite: 74705, time: 186.973891] g_loss : 1.383329, d_loss : 0.464840 
+2023-01-12 13:42:31,539 - [epoch:  14/ 30, batch:  4000/11216, ite: 74905, time: 186.008718] g_loss : 1.381408, d_loss : 0.465530 
+2023-01-12 13:44:00,636 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_75000_G_1.383370_D_0.465639.pth
+2023-01-12 13:45:38,871 - [epoch:  14/ 30, batch:  4400/11216, ite: 75105, time: 187.332083] g_loss : 1.388837, d_loss : 0.463942 
+2023-01-12 13:48:45,433 - [epoch:  14/ 30, batch:  4800/11216, ite: 75305, time: 186.562012] g_loss : 1.376238, d_loss : 0.464664 
+2023-01-12 13:51:52,454 - [epoch:  14/ 30, batch:  5200/11216, ite: 75505, time: 187.021767] g_loss : 1.391275, d_loss : 0.463264 
+2023-01-12 13:54:59,465 - [epoch:  14/ 30, batch:  5600/11216, ite: 75705, time: 187.010433] g_loss : 1.384376, d_loss : 0.464063 
+2023-01-12 13:58:05,932 - [epoch:  14/ 30, batch:  6000/11216, ite: 75905, time: 186.467496] g_loss : 1.381492, d_loss : 0.464636 
+2023-01-12 13:59:34,820 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_76000_G_1.382597_D_0.463333.pth
+2023-01-12 14:01:12,849 - [epoch:  14/ 30, batch:  6400/11216, ite: 76105, time: 186.916148] g_loss : 1.407987, d_loss : 0.456241 
+2023-01-12 14:04:19,127 - [epoch:  14/ 30, batch:  6800/11216, ite: 76305, time: 186.278010] g_loss : 1.392308, d_loss : 0.451520 
+2023-01-12 14:07:26,073 - [epoch:  14/ 30, batch:  7200/11216, ite: 76505, time: 186.946028] g_loss : 1.393170, d_loss : 0.448211 
+2023-01-12 14:10:33,015 - [epoch:  14/ 30, batch:  7600/11216, ite: 76705, time: 186.942439] g_loss : 1.399670, d_loss : 0.447855 
+2023-01-12 14:13:41,203 - [epoch:  14/ 30, batch:  8000/11216, ite: 76905, time: 188.187737] g_loss : 1.393066, d_loss : 0.450785 
+2023-01-12 14:15:09,698 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_77000_G_1.391463_D_0.452021.pth
+2023-01-12 14:16:47,464 - [epoch:  14/ 30, batch:  8400/11216, ite: 77105, time: 186.261531] g_loss : 1.398971, d_loss : 0.468376 
+2023-01-12 14:19:53,732 - [epoch:  14/ 30, batch:  8800/11216, ite: 77305, time: 186.267169] g_loss : 1.388680, d_loss : 0.464923 
+2023-01-12 14:23:00,084 - [epoch:  14/ 30, batch:  9200/11216, ite: 77505, time: 186.352539] g_loss : 1.385848, d_loss : 0.465014 
+2023-01-12 14:26:06,042 - [epoch:  14/ 30, batch:  9600/11216, ite: 77705, time: 185.957445] g_loss : 1.386015, d_loss : 0.464830 
+2023-01-12 14:29:11,899 - [epoch:  14/ 30, batch: 10000/11216, ite: 77905, time: 185.857419] g_loss : 1.389678, d_loss : 0.464875 
+2023-01-12 14:30:40,435 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_78000_G_1.390989_D_0.464445.pth
+2023-01-12 14:32:17,682 - [epoch:  14/ 30, batch: 10400/11216, ite: 78105, time: 185.783453] g_loss : 1.362657, d_loss : 0.465268 
+2023-01-12 14:35:24,143 - [epoch:  14/ 30, batch: 10800/11216, ite: 78305, time: 186.460521] g_loss : 1.376202, d_loss : 0.464209 
+2023-01-12 14:38:30,110 - [epoch:  14/ 30, batch: 11200/11216, ite: 78505, time: 185.967621] g_loss : 1.392288, d_loss : 0.462934 
+2023-01-12 14:38:37,444 - [epoch:  15/ 30, batch:     0/11216, ite: 78513, time: 7.333830] g_loss : 1.391658, d_loss : 0.462965 
+2023-01-12 14:41:43,549 - [epoch:  15/ 30, batch:   400/11216, ite: 78713, time: 186.104536] g_loss : 1.388197, d_loss : 0.463104 
+2023-01-12 14:44:49,562 - [epoch:  15/ 30, batch:   800/11216, ite: 78913, time: 186.013545] g_loss : 1.387766, d_loss : 0.463138 
+2023-01-12 14:46:10,515 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_79000_G_1.384144_D_0.463561.pth
+2023-01-12 14:47:56,388 - [epoch:  15/ 30, batch:  1200/11216, ite: 79113, time: 186.825638] g_loss : 1.415043, d_loss : 0.462677 
+2023-01-12 14:51:01,738 - [epoch:  15/ 30, batch:  1600/11216, ite: 79313, time: 185.349986] g_loss : 1.382143, d_loss : 0.466708 
+2023-01-12 14:54:08,073 - [epoch:  15/ 30, batch:  2000/11216, ite: 79513, time: 186.335044] g_loss : 1.375859, d_loss : 0.466191 
+2023-01-12 14:57:14,457 - [epoch:  15/ 30, batch:  2400/11216, ite: 79713, time: 186.383867] g_loss : 1.376852, d_loss : 0.465721 
+2023-01-12 15:00:21,089 - [epoch:  15/ 30, batch:  2800/11216, ite: 79913, time: 186.632216] g_loss : 1.376010, d_loss : 0.465723 
+2023-01-12 15:01:42,390 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_80000_G_1.375789_D_0.465666.pth
+2023-01-12 15:03:27,695 - [epoch:  15/ 30, batch:  3200/11216, ite: 80113, time: 186.605977] g_loss : 1.393903, d_loss : 0.461380 
+2023-01-12 15:06:34,287 - [epoch:  15/ 30, batch:  3600/11216, ite: 80313, time: 186.591510] g_loss : 1.403167, d_loss : 0.462217 
+2023-01-12 15:09:40,677 - [epoch:  15/ 30, batch:  4000/11216, ite: 80513, time: 186.390398] g_loss : 1.391793, d_loss : 0.464132 
+2023-01-12 15:12:47,364 - [epoch:  15/ 30, batch:  4400/11216, ite: 80713, time: 186.686677] g_loss : 1.392665, d_loss : 0.464520 
+2023-01-12 15:15:54,384 - [epoch:  15/ 30, batch:  4800/11216, ite: 80913, time: 187.020550] g_loss : 1.387311, d_loss : 0.464817 
+2023-01-12 15:17:15,596 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_81000_G_1.391311_D_0.464535.pth
+2023-01-12 15:19:01,038 - [epoch:  15/ 30, batch:  5200/11216, ite: 81113, time: 186.653545] g_loss : 1.398422, d_loss : 0.463128 
+2023-01-12 15:22:07,344 - [epoch:  15/ 30, batch:  5600/11216, ite: 81313, time: 186.305710] g_loss : 1.377067, d_loss : 0.464456 
+2023-01-12 15:25:13,979 - [epoch:  15/ 30, batch:  6000/11216, ite: 81513, time: 186.635605] g_loss : 1.374516, d_loss : 0.465208 
+2023-01-12 15:28:20,719 - [epoch:  15/ 30, batch:  6400/11216, ite: 81713, time: 186.740160] g_loss : 1.382502, d_loss : 0.464863 
+2023-01-12 15:31:27,372 - [epoch:  15/ 30, batch:  6800/11216, ite: 81913, time: 186.653182] g_loss : 1.382761, d_loss : 0.462770 
+2023-01-12 15:32:48,270 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_82000_G_1.383454_D_0.461796.pth
+2023-01-12 15:34:33,606 - [epoch:  15/ 30, batch:  7200/11216, ite: 82113, time: 186.233266] g_loss : 1.392546, d_loss : 0.453564 
+2023-01-12 15:37:40,602 - [epoch:  15/ 30, batch:  7600/11216, ite: 82313, time: 186.995880] g_loss : 1.406064, d_loss : 0.452781 
+2023-01-12 15:40:47,365 - [epoch:  15/ 30, batch:  8000/11216, ite: 82513, time: 186.763759] g_loss : 1.382885, d_loss : 0.454943 
+2023-01-12 15:43:54,097 - [epoch:  15/ 30, batch:  8400/11216, ite: 82713, time: 186.731142] g_loss : 1.381061, d_loss : 0.457131 
+2023-01-12 15:47:01,150 - [epoch:  15/ 30, batch:  8800/11216, ite: 82913, time: 187.053606] g_loss : 1.380345, d_loss : 0.458804 
+2023-01-12 15:48:21,954 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_83000_G_1.379626_D_0.459392.pth
+2023-01-12 15:50:08,107 - [epoch:  15/ 30, batch:  9200/11216, ite: 83113, time: 186.957183] g_loss : 1.383157, d_loss : 0.465627 
+2023-01-12 15:53:14,367 - [epoch:  15/ 30, batch:  9600/11216, ite: 83313, time: 186.260011] g_loss : 1.383341, d_loss : 0.465063 
+2023-01-12 15:56:21,803 - [epoch:  15/ 30, batch: 10000/11216, ite: 83513, time: 187.435408] g_loss : 1.390494, d_loss : 0.464945 
+2023-01-12 15:59:28,518 - [epoch:  15/ 30, batch: 10400/11216, ite: 83713, time: 186.715540] g_loss : 1.387693, d_loss : 0.464340 
+2023-01-12 16:02:34,878 - [epoch:  15/ 30, batch: 10800/11216, ite: 83913, time: 186.360130] g_loss : 1.385789, d_loss : 0.464221 
+2023-01-12 16:03:55,462 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_84000_G_1.388866_D_0.464057.pth
+2023-01-12 16:05:41,047 - [epoch:  15/ 30, batch: 11200/11216, ite: 84113, time: 186.168393] g_loss : 1.414569, d_loss : 0.459847 
+2023-01-12 16:05:48,756 - [epoch:  16/ 30, batch:     0/11216, ite: 84121, time: 7.709467] g_loss : 1.410888, d_loss : 0.460069 
+2023-01-12 16:08:55,427 - [epoch:  16/ 30, batch:   400/11216, ite: 84321, time: 186.670402] g_loss : 1.391048, d_loss : 0.461732 
+2023-01-12 16:12:03,597 - [epoch:  16/ 30, batch:   800/11216, ite: 84521, time: 188.170810] g_loss : 1.388756, d_loss : 0.462597 
+2023-01-12 16:15:10,770 - [epoch:  16/ 30, batch:  1200/11216, ite: 84721, time: 187.172062] g_loss : 1.387548, d_loss : 0.463047 
+2023-01-12 16:18:17,964 - [epoch:  16/ 30, batch:  1600/11216, ite: 84921, time: 187.193966] g_loss : 1.382360, d_loss : 0.464024 
+2023-01-12 16:19:32,593 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_85000_G_1.381796_D_0.463998.pth
+2023-01-12 16:21:25,107 - [epoch:  16/ 30, batch:  2000/11216, ite: 85121, time: 187.143158] g_loss : 1.358344, d_loss : 0.465541 
+2023-01-12 16:24:32,145 - [epoch:  16/ 30, batch:  2400/11216, ite: 85321, time: 187.037848] g_loss : 1.372595, d_loss : 0.463963 
+2023-01-12 16:27:39,721 - [epoch:  16/ 30, batch:  2800/11216, ite: 85521, time: 187.576851] g_loss : 1.372589, d_loss : 0.464244 
+2023-01-12 16:30:46,295 - [epoch:  16/ 30, batch:  3200/11216, ite: 85721, time: 186.573322] g_loss : 1.375670, d_loss : 0.463874 
+2023-01-12 16:33:53,169 - [epoch:  16/ 30, batch:  3600/11216, ite: 85921, time: 186.874173] g_loss : 1.382646, d_loss : 0.463551 
+2023-01-12 16:35:06,981 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_86000_G_1.383573_D_0.463933.pth
+2023-01-12 16:36:59,888 - [epoch:  16/ 30, batch:  4000/11216, ite: 86121, time: 186.719497] g_loss : 1.358860, d_loss : 0.465478 
+2023-01-12 16:40:06,579 - [epoch:  16/ 30, batch:  4400/11216, ite: 86321, time: 186.690380] g_loss : 1.381093, d_loss : 0.464909 
+2023-01-12 16:43:13,969 - [epoch:  16/ 30, batch:  4800/11216, ite: 86521, time: 187.390481] g_loss : 1.375655, d_loss : 0.464908 
+2023-01-12 16:46:22,312 - [epoch:  16/ 30, batch:  5200/11216, ite: 86721, time: 188.342856] g_loss : 1.385962, d_loss : 0.464303 
+2023-01-12 16:49:32,142 - [epoch:  16/ 30, batch:  5600/11216, ite: 86921, time: 189.830149] g_loss : 1.381206, d_loss : 0.464089 
+2023-01-12 16:50:45,876 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_87000_G_1.382772_D_0.463775.pth
+2023-01-12 16:52:38,540 - [epoch:  16/ 30, batch:  6000/11216, ite: 87121, time: 186.397425] g_loss : 1.345613, d_loss : 0.459435 
+2023-01-12 16:55:44,679 - [epoch:  16/ 30, batch:  6400/11216, ite: 87321, time: 186.139727] g_loss : 1.377104, d_loss : 0.455861 
+2023-01-12 16:58:51,935 - [epoch:  16/ 30, batch:  6800/11216, ite: 87521, time: 187.255953] g_loss : 1.379198, d_loss : 0.457059 
+2023-01-12 17:01:58,348 - [epoch:  16/ 30, batch:  7200/11216, ite: 87721, time: 186.412197] g_loss : 1.384321, d_loss : 0.457473 
+2023-01-12 17:05:04,597 - [epoch:  16/ 30, batch:  7600/11216, ite: 87921, time: 186.249827] g_loss : 1.389637, d_loss : 0.455570 
+2023-01-12 17:06:18,401 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_88000_G_1.385619_D_0.455994.pth
+2023-01-12 17:08:11,236 - [epoch:  16/ 30, batch:  8000/11216, ite: 88121, time: 186.638535] g_loss : 1.354135, d_loss : 0.456186 
+2023-01-12 17:11:18,356 - [epoch:  16/ 30, batch:  8400/11216, ite: 88321, time: 187.119733] g_loss : 1.366987, d_loss : 0.461180 
+2023-01-12 17:14:24,882 - [epoch:  16/ 30, batch:  8800/11216, ite: 88521, time: 186.526337] g_loss : 1.370961, d_loss : 0.462171 
+2023-01-12 17:17:31,292 - [epoch:  16/ 30, batch:  9200/11216, ite: 88721, time: 186.410275] g_loss : 1.372809, d_loss : 0.462638 
+2023-01-12 17:20:37,511 - [epoch:  16/ 30, batch:  9600/11216, ite: 88921, time: 186.218895] g_loss : 1.374866, d_loss : 0.462921 
+2023-01-12 17:21:51,261 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_89000_G_1.377888_D_0.462933.pth
+2023-01-12 17:23:44,597 - [epoch:  16/ 30, batch: 10000/11216, ite: 89121, time: 187.085377] g_loss : 1.390034, d_loss : 0.465001 
+2023-01-12 17:26:51,084 - [epoch:  16/ 30, batch: 10400/11216, ite: 89321, time: 186.487832] g_loss : 1.383471, d_loss : 0.462964 
+2023-01-12 17:29:57,257 - [epoch:  16/ 30, batch: 10800/11216, ite: 89521, time: 186.172604] g_loss : 1.381555, d_loss : 0.462880 
+2023-01-12 17:33:04,085 - [epoch:  16/ 30, batch: 11200/11216, ite: 89721, time: 186.827590] g_loss : 1.390697, d_loss : 0.462117 
+2023-01-12 17:33:11,586 - [epoch:  17/ 30, batch:     0/11216, ite: 89729, time: 7.501714] g_loss : 1.390304, d_loss : 0.462111 
+2023-01-12 17:36:17,623 - [epoch:  17/ 30, batch:   400/11216, ite: 89929, time: 186.036687] g_loss : 1.387711, d_loss : 0.462220 
+2023-01-12 17:37:23,917 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_90000_G_1.389582_D_0.462109.pth
+2023-01-12 17:39:24,266 - [epoch:  17/ 30, batch:   800/11216, ite: 90129, time: 186.642979] g_loss : 1.368409, d_loss : 0.464374 
+2023-01-12 17:42:31,676 - [epoch:  17/ 30, batch:  1200/11216, ite: 90329, time: 187.409852] g_loss : 1.377837, d_loss : 0.464054 
+2023-01-12 17:45:39,256 - [epoch:  17/ 30, batch:  1600/11216, ite: 90529, time: 187.579882] g_loss : 1.372076, d_loss : 0.465022 
+2023-01-12 17:48:46,954 - [epoch:  17/ 30, batch:  2000/11216, ite: 90729, time: 187.698351] g_loss : 1.370188, d_loss : 0.464885 
+2023-01-12 17:51:53,538 - [epoch:  17/ 30, batch:  2400/11216, ite: 90929, time: 186.583845] g_loss : 1.372032, d_loss : 0.464394 
+2023-01-12 17:52:59,711 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_91000_G_1.370891_D_0.464265.pth
+2023-01-12 17:54:59,953 - [epoch:  17/ 30, batch:  2800/11216, ite: 91129, time: 186.415044] g_loss : 1.380767, d_loss : 0.465138 
+2023-01-12 17:58:06,193 - [epoch:  17/ 30, batch:  3200/11216, ite: 91329, time: 186.240635] g_loss : 1.382589, d_loss : 0.463029 
+2023-01-12 18:01:11,450 - [epoch:  17/ 30, batch:  3600/11216, ite: 91529, time: 185.256932] g_loss : 1.392106, d_loss : 0.462217 
+2023-01-12 18:04:17,647 - [epoch:  17/ 30, batch:  4000/11216, ite: 91729, time: 186.196277] g_loss : 1.386971, d_loss : 0.462891 
+2023-01-12 18:07:23,580 - [epoch:  17/ 30, batch:  4400/11216, ite: 91929, time: 185.933047] g_loss : 1.388687, d_loss : 0.462773 
+2023-01-12 18:08:29,961 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_92000_G_1.386617_D_0.462679.pth
+2023-01-12 18:10:30,326 - [epoch:  17/ 30, batch:  4800/11216, ite: 92129, time: 186.746006] g_loss : 1.381208, d_loss : 0.464151 
+2023-01-12 18:13:36,248 - [epoch:  17/ 30, batch:  5200/11216, ite: 92329, time: 185.922107] g_loss : 1.400659, d_loss : 0.462118 
+2023-01-12 18:16:42,843 - [epoch:  17/ 30, batch:  5600/11216, ite: 92529, time: 186.595375] g_loss : 1.387226, d_loss : 0.462633 
+2023-01-12 18:19:48,628 - [epoch:  17/ 30, batch:  6000/11216, ite: 92729, time: 185.784879] g_loss : 1.382632, d_loss : 0.463281 
+2023-01-12 18:22:55,144 - [epoch:  17/ 30, batch:  6400/11216, ite: 92929, time: 186.516258] g_loss : 1.387142, d_loss : 0.463257 
+2023-01-12 18:24:01,406 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_93000_G_1.386654_D_0.463482.pth
+2023-01-12 18:26:01,618 - [epoch:  17/ 30, batch:  6800/11216, ite: 93129, time: 186.473502] g_loss : 1.386177, d_loss : 0.460852 
+2023-01-12 18:29:07,944 - [epoch:  17/ 30, batch:  7200/11216, ite: 93329, time: 186.326442] g_loss : 1.393578, d_loss : 0.461328 
+2023-01-12 18:32:14,606 - [epoch:  17/ 30, batch:  7600/11216, ite: 93529, time: 186.661938] g_loss : 1.401842, d_loss : 0.460460 
+2023-01-12 18:35:22,020 - [epoch:  17/ 30, batch:  8000/11216, ite: 93729, time: 187.413533] g_loss : 1.388327, d_loss : 0.461344 
+2023-01-12 18:38:28,673 - [epoch:  17/ 30, batch:  8400/11216, ite: 93929, time: 186.653030] g_loss : 1.386018, d_loss : 0.462478 
+2023-01-12 18:39:34,981 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_94000_G_1.384483_D_0.462781.pth
+2023-01-12 18:41:35,516 - [epoch:  17/ 30, batch:  8800/11216, ite: 94129, time: 186.843057] g_loss : 1.382731, d_loss : 0.461669 
+2023-01-12 18:44:42,559 - [epoch:  17/ 30, batch:  9200/11216, ite: 94329, time: 187.043520] g_loss : 1.379281, d_loss : 0.462727 
+2023-01-12 18:47:48,948 - [epoch:  17/ 30, batch:  9600/11216, ite: 94529, time: 186.389000] g_loss : 1.380043, d_loss : 0.463014 
+2023-01-12 18:50:55,666 - [epoch:  17/ 30, batch: 10000/11216, ite: 94729, time: 186.717811] g_loss : 1.385205, d_loss : 0.463125 
+2023-01-12 18:54:01,602 - [epoch:  17/ 30, batch: 10400/11216, ite: 94929, time: 185.935959] g_loss : 1.383848, d_loss : 0.462673 
+2023-01-12 18:55:07,611 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_95000_G_1.382903_D_0.462575.pth
+2023-01-12 18:57:07,949 - [epoch:  17/ 30, batch: 10800/11216, ite: 95129, time: 186.346718] g_loss : 1.382081, d_loss : 0.463427 
+2023-01-12 19:00:14,654 - [epoch:  17/ 30, batch: 11200/11216, ite: 95329, time: 186.705443] g_loss : 1.402777, d_loss : 0.461001 
+2023-01-12 19:00:21,967 - [epoch:  18/ 30, batch:     0/11216, ite: 95337, time: 7.312341] g_loss : 1.401630, d_loss : 0.461050 
+2023-01-12 19:03:27,698 - [epoch:  18/ 30, batch:   400/11216, ite: 95537, time: 185.730939] g_loss : 1.392744, d_loss : 0.461146 
+2023-01-12 19:06:33,556 - [epoch:  18/ 30, batch:   800/11216, ite: 95737, time: 185.858657] g_loss : 1.390318, d_loss : 0.461358 
+2023-01-12 19:09:40,071 - [epoch:  18/ 30, batch:  1200/11216, ite: 95937, time: 186.515163] g_loss : 1.388843, d_loss : 0.461790 
+2023-01-12 19:10:39,079 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_96000_G_1.385570_D_0.462489.pth
+2023-01-12 19:12:46,656 - [epoch:  18/ 30, batch:  1600/11216, ite: 96137, time: 186.584396] g_loss : 1.374019, d_loss : 0.462487 
+2023-01-12 19:15:52,694 - [epoch:  18/ 30, batch:  2000/11216, ite: 96337, time: 186.038221] g_loss : 1.368473, d_loss : 0.462971 
+2023-01-12 19:18:58,926 - [epoch:  18/ 30, batch:  2400/11216, ite: 96537, time: 186.231714] g_loss : 1.372174, d_loss : 0.462427 
+2023-01-12 19:22:05,322 - [epoch:  18/ 30, batch:  2800/11216, ite: 96737, time: 186.396429] g_loss : 1.371979, d_loss : 0.462646 
+2023-01-12 19:25:12,212 - [epoch:  18/ 30, batch:  3200/11216, ite: 96937, time: 186.890254] g_loss : 1.374502, d_loss : 0.462293 
+2023-01-12 19:26:10,992 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_97000_G_1.377376_D_0.462250.pth
+2023-01-12 19:28:19,073 - [epoch:  18/ 30, batch:  3600/11216, ite: 97137, time: 186.860361] g_loss : 1.401722, d_loss : 0.460391 
+2023-01-12 19:31:25,295 - [epoch:  18/ 30, batch:  4000/11216, ite: 97337, time: 186.222030] g_loss : 1.384658, d_loss : 0.462652 
+2023-01-12 19:34:31,156 - [epoch:  18/ 30, batch:  4400/11216, ite: 97537, time: 185.861155] g_loss : 1.388146, d_loss : 0.462882 
+2023-01-12 19:37:37,534 - [epoch:  18/ 30, batch:  4800/11216, ite: 97737, time: 186.377916] g_loss : 1.380181, d_loss : 0.460897 
+2023-01-12 19:40:43,786 - [epoch:  18/ 30, batch:  5200/11216, ite: 97937, time: 186.252130] g_loss : 1.387840, d_loss : 0.458578 
+2023-01-12 19:41:42,439 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_98000_G_1.383992_D_0.456503.pth
+2023-01-12 19:43:49,742 - [epoch:  18/ 30, batch:  5600/11216, ite: 98137, time: 185.956320] g_loss : 1.366263, d_loss : 0.444999 
+2023-01-12 19:46:56,327 - [epoch:  18/ 30, batch:  6000/11216, ite: 98337, time: 186.585064] g_loss : 1.371477, d_loss : 0.450658 
+2023-01-12 19:50:02,495 - [epoch:  18/ 30, batch:  6400/11216, ite: 98537, time: 186.167593] g_loss : 1.379022, d_loss : 0.451022 
+2023-01-12 19:53:09,297 - [epoch:  18/ 30, batch:  6800/11216, ite: 98737, time: 186.801919] g_loss : 1.377934, d_loss : 0.449450 
+2023-01-12 19:56:19,368 - [epoch:  18/ 30, batch:  7200/11216, ite: 98937, time: 190.071398] g_loss : 1.381307, d_loss : 0.449911 
+2023-01-12 19:57:19,337 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_99000_G_1.381690_D_0.449795.pth
+2023-01-12 19:59:30,173 - [epoch:  18/ 30, batch:  7600/11216, ite: 99137, time: 190.804942] g_loss : 1.424944, d_loss : 0.447858 
+2023-01-12 20:02:40,093 - [epoch:  18/ 30, batch:  8000/11216, ite: 99337, time: 189.919657] g_loss : 1.379494, d_loss : 0.454507 
+2023-01-12 20:05:49,435 - [epoch:  18/ 30, batch:  8400/11216, ite: 99537, time: 189.342130] g_loss : 1.377356, d_loss : 0.456612 
+2023-01-12 20:08:58,851 - [epoch:  18/ 30, batch:  8800/11216, ite: 99737, time: 189.415735] g_loss : 1.375615, d_loss : 0.455053 
+2023-01-12 20:12:08,753 - [epoch:  18/ 30, batch:  9200/11216, ite: 99937, time: 189.902491] g_loss : 1.375831, d_loss : 0.455146 
+2023-01-12 20:13:09,470 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_100000_G_1.375863_D_0.455052.pth
+2023-01-12 20:15:19,724 - [epoch:  18/ 30, batch:  9600/11216, ite: 100137, time: 190.970659] g_loss : 1.384207, d_loss : 0.461349 
+2023-01-12 20:18:29,436 - [epoch:  18/ 30, batch: 10000/11216, ite: 100337, time: 189.712481] g_loss : 1.394962, d_loss : 0.460981 
+2023-01-12 20:21:38,033 - [epoch:  18/ 30, batch: 10400/11216, ite: 100537, time: 188.596465] g_loss : 1.390453, d_loss : 0.460389 
+2023-01-12 20:24:47,127 - [epoch:  18/ 30, batch: 10800/11216, ite: 100737, time: 189.094467] g_loss : 1.387920, d_loss : 0.460777 
+2023-01-12 20:27:56,383 - [epoch:  18/ 30, batch: 11200/11216, ite: 100937, time: 189.255797] g_loss : 1.393722, d_loss : 0.460556 
+2023-01-12 20:28:04,551 - [epoch:  19/ 30, batch:     0/11216, ite: 100945, time: 8.167664] g_loss : 1.393401, d_loss : 0.460575 
+2023-01-12 20:28:56,480 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_101000_G_1.392262_D_0.460510.pth
+2023-01-12 20:31:12,443 - [epoch:  19/ 30, batch:   400/11216, ite: 101145, time: 187.891771] g_loss : 1.382505, d_loss : 0.463465 
+2023-01-12 20:34:21,953 - [epoch:  19/ 30, batch:   800/11216, ite: 101345, time: 189.510744] g_loss : 1.384322, d_loss : 0.462522 
+2023-01-12 20:37:30,070 - [epoch:  19/ 30, batch:  1200/11216, ite: 101545, time: 188.116931] g_loss : 1.384753, d_loss : 0.462824 
+2023-01-12 20:40:38,552 - [epoch:  19/ 30, batch:  1600/11216, ite: 101745, time: 188.481926] g_loss : 1.378994, d_loss : 0.463556 
+2023-01-12 20:43:47,676 - [epoch:  19/ 30, batch:  2000/11216, ite: 101945, time: 189.123784] g_loss : 1.376306, d_loss : 0.463494 
+2023-01-12 20:44:39,665 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_102000_G_1.378717_D_0.463281.pth
+2023-01-12 20:46:56,868 - [epoch:  19/ 30, batch:  2400/11216, ite: 102145, time: 189.192130] g_loss : 1.366366, d_loss : 0.462587 
+2023-01-12 20:50:05,332 - [epoch:  19/ 30, batch:  2800/11216, ite: 102345, time: 188.463399] g_loss : 1.371071, d_loss : 0.462267 
+2023-01-12 20:53:13,141 - [epoch:  19/ 30, batch:  3200/11216, ite: 102545, time: 187.809556] g_loss : 1.376049, d_loss : 0.461609 
+2023-01-12 20:56:21,922 - [epoch:  19/ 30, batch:  3600/11216, ite: 102745, time: 188.781182] g_loss : 1.384710, d_loss : 0.461436 
+2023-01-12 20:59:31,815 - [epoch:  19/ 30, batch:  4000/11216, ite: 102945, time: 189.892953] g_loss : 1.382422, d_loss : 0.461916 
+2023-01-12 21:00:24,052 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_103000_G_1.383158_D_0.461962.pth
+2023-01-12 21:02:40,822 - [epoch:  19/ 30, batch:  4400/11216, ite: 103145, time: 189.007015] g_loss : 1.395279, d_loss : 0.461783 
+2023-01-12 21:05:49,837 - [epoch:  19/ 30, batch:  4800/11216, ite: 103345, time: 189.014374] g_loss : 1.381565, d_loss : 0.461792 
+2023-01-12 21:08:57,214 - [epoch:  19/ 30, batch:  5200/11216, ite: 103545, time: 187.377857] g_loss : 1.394058, d_loss : 0.460350 
+2023-01-12 21:12:05,782 - [epoch:  19/ 30, batch:  5600/11216, ite: 103745, time: 188.567463] g_loss : 1.382970, d_loss : 0.460090 
+2023-01-12 21:15:14,631 - [epoch:  19/ 30, batch:  6000/11216, ite: 103945, time: 188.849244] g_loss : 1.379351, d_loss : 0.459305 
+2023-01-12 21:16:06,850 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_104000_G_1.378817_D_0.458997.pth
+2023-01-12 21:18:23,804 - [epoch:  19/ 30, batch:  6400/11216, ite: 104145, time: 189.172602] g_loss : 1.412596, d_loss : 0.458751 
+2023-01-12 21:21:33,659 - [epoch:  19/ 30, batch:  6800/11216, ite: 104345, time: 189.855516] g_loss : 1.401518, d_loss : 0.461472 
+2023-01-12 21:24:42,710 - [epoch:  19/ 30, batch:  7200/11216, ite: 104545, time: 189.050667] g_loss : 1.401087, d_loss : 0.461469 
+2023-01-12 21:27:51,991 - [epoch:  19/ 30, batch:  7600/11216, ite: 104745, time: 189.280988] g_loss : 1.405724, d_loss : 0.460475 
+2023-01-12 21:31:01,920 - [epoch:  19/ 30, batch:  8000/11216, ite: 104945, time: 189.929082] g_loss : 1.394866, d_loss : 0.460869 
+2023-01-12 21:31:53,667 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_105000_G_1.394382_D_0.460783.pth
+2023-01-12 21:34:11,235 - [epoch:  19/ 30, batch:  8400/11216, ite: 105145, time: 189.314657] g_loss : 1.376858, d_loss : 0.467303 
+2023-01-12 21:37:20,941 - [epoch:  19/ 30, batch:  8800/11216, ite: 105345, time: 189.706864] g_loss : 1.377920, d_loss : 0.464780 
+2023-01-12 21:40:29,815 - [epoch:  19/ 30, batch:  9200/11216, ite: 105545, time: 188.873745] g_loss : 1.377329, d_loss : 0.463839 
+2023-01-12 21:43:39,068 - [epoch:  19/ 30, batch:  9600/11216, ite: 105745, time: 189.252402] g_loss : 1.378757, d_loss : 0.463391 
+2023-01-12 21:46:50,321 - [epoch:  19/ 30, batch: 10000/11216, ite: 105945, time: 191.253304] g_loss : 1.383381, d_loss : 0.463137 
+2023-01-12 21:47:42,513 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_106000_G_1.384257_D_0.462712.pth
+2023-01-12 21:50:00,590 - [epoch:  19/ 30, batch: 10400/11216, ite: 106145, time: 190.269003] g_loss : 1.374623, d_loss : 0.458410 
+2023-01-12 21:53:12,591 - [epoch:  19/ 30, batch: 10800/11216, ite: 106345, time: 192.000681] g_loss : 1.376689, d_loss : 0.455929 
+2023-01-12 21:56:22,000 - [epoch:  19/ 30, batch: 11200/11216, ite: 106545, time: 189.409067] g_loss : 1.389990, d_loss : 0.456378 
+2023-01-12 21:56:29,698 - [epoch:  20/ 30, batch:     0/11216, ite: 106553, time: 7.697870] g_loss : 1.389522, d_loss : 0.456399 
+2023-01-12 21:59:40,139 - [epoch:  20/ 30, batch:   400/11216, ite: 106753, time: 190.441365] g_loss : 1.386778, d_loss : 0.457511 
+2023-01-12 22:02:51,071 - [epoch:  20/ 30, batch:   800/11216, ite: 106953, time: 190.932125] g_loss : 1.386369, d_loss : 0.458208 
+2023-01-12 22:03:36,032 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_107000_G_1.382960_D_0.457389.pth
+2023-01-12 22:06:02,348 - [epoch:  20/ 30, batch:  1200/11216, ite: 107153, time: 191.276598] g_loss : 1.379026, d_loss : 0.441274 
+2023-01-12 22:09:13,078 - [epoch:  20/ 30, batch:  1600/11216, ite: 107353, time: 190.730322] g_loss : 1.368814, d_loss : 0.452456 
+2023-01-12 22:12:22,343 - [epoch:  20/ 30, batch:  2000/11216, ite: 107553, time: 189.264595] g_loss : 1.365956, d_loss : 0.455126 
+2023-01-12 22:15:32,557 - [epoch:  20/ 30, batch:  2400/11216, ite: 107753, time: 190.213999] g_loss : 1.368913, d_loss : 0.455663 
+2023-01-12 22:18:43,020 - [epoch:  20/ 30, batch:  2800/11216, ite: 107953, time: 190.463352] g_loss : 1.369889, d_loss : 0.455874 
+2023-01-12 22:19:27,822 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_108000_G_1.370724_D_0.455359.pth
+2023-01-12 22:21:52,716 - [epoch:  20/ 30, batch:  3200/11216, ite: 108153, time: 189.696260] g_loss : 1.375151, d_loss : 0.442536 
+2023-01-12 22:25:02,230 - [epoch:  20/ 30, batch:  3600/11216, ite: 108353, time: 189.513399] g_loss : 1.392453, d_loss : 0.444050 
+2023-01-12 22:28:11,032 - [epoch:  20/ 30, batch:  4000/11216, ite: 108553, time: 188.802784] g_loss : 1.386269, d_loss : 0.450162 
+2023-01-12 22:31:19,917 - [epoch:  20/ 30, batch:  4400/11216, ite: 108753, time: 188.884139] g_loss : 1.387949, d_loss : 0.452316 
+2023-01-12 22:34:29,438 - [epoch:  20/ 30, batch:  4800/11216, ite: 108953, time: 189.521209] g_loss : 1.383730, d_loss : 0.454463 
+2023-01-12 22:35:14,081 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_109000_G_1.385630_D_0.454417.pth
+2023-01-12 22:37:39,864 - [epoch:  20/ 30, batch:  5200/11216, ite: 109153, time: 190.426449] g_loss : 1.402666, d_loss : 0.449951 
+2023-01-12 22:40:50,840 - [epoch:  20/ 30, batch:  5600/11216, ite: 109353, time: 190.975597] g_loss : 1.375762, d_loss : 0.452921 
+2023-01-12 22:43:59,708 - [epoch:  20/ 30, batch:  6000/11216, ite: 109553, time: 188.868626] g_loss : 1.380120, d_loss : 0.448134 
+2023-01-12 22:47:09,427 - [epoch:  20/ 30, batch:  6400/11216, ite: 109753, time: 189.718458] g_loss : 1.383974, d_loss : 0.450954 
+2023-01-12 22:50:18,323 - [epoch:  20/ 30, batch:  6800/11216, ite: 109953, time: 188.896020] g_loss : 1.383869, d_loss : 0.453335 
+2023-01-12 22:51:03,434 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_110000_G_1.386138_D_0.453801.pth
+2023-01-12 22:53:28,624 - [epoch:  20/ 30, batch:  7200/11216, ite: 110153, time: 190.301240] g_loss : 1.388423, d_loss : 0.461573 
+2023-01-12 22:56:38,845 - [epoch:  20/ 30, batch:  7600/11216, ite: 110353, time: 190.220991] g_loss : 1.404592, d_loss : 0.460352 
+2023-01-12 22:59:48,335 - [epoch:  20/ 30, batch:  8000/11216, ite: 110553, time: 189.489555] g_loss : 1.386348, d_loss : 0.461624 
+2023-01-12 23:02:57,384 - [epoch:  20/ 30, batch:  8400/11216, ite: 110753, time: 189.049520] g_loss : 1.384038, d_loss : 0.462852 
+2023-01-12 23:06:07,066 - [epoch:  20/ 30, batch:  8800/11216, ite: 110953, time: 189.682038] g_loss : 1.382519, d_loss : 0.462817 
+2023-01-12 23:06:51,961 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_111000_G_1.382347_D_0.462827.pth
+2023-01-12 23:09:17,376 - [epoch:  20/ 30, batch:  9200/11216, ite: 111153, time: 190.310016] g_loss : 1.378394, d_loss : 0.462294 
+2023-01-12 23:12:27,233 - [epoch:  20/ 30, batch:  9600/11216, ite: 111353, time: 189.856685] g_loss : 1.380383, d_loss : 0.462490 
+2023-01-12 23:15:36,914 - [epoch:  20/ 30, batch: 10000/11216, ite: 111553, time: 189.680611] g_loss : 1.387244, d_loss : 0.462715 
+2023-01-12 23:18:46,963 - [epoch:  20/ 30, batch: 10400/11216, ite: 111753, time: 190.048913] g_loss : 1.385399, d_loss : 0.462050 
+2023-01-12 23:21:58,650 - [epoch:  20/ 30, batch: 10800/11216, ite: 111953, time: 191.687650] g_loss : 1.384041, d_loss : 0.461911 
+2023-01-12 23:22:44,287 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_112000_G_1.386016_D_0.461763.pth
+2023-01-12 23:25:10,361 - [epoch:  20/ 30, batch: 11200/11216, ite: 112153, time: 191.711053] g_loss : 1.411763, d_loss : 0.459176 
+2023-01-12 23:25:18,083 - [epoch:  21/ 30, batch:     0/11216, ite: 112161, time: 7.721583] g_loss : 1.408940, d_loss : 0.459152 
+2023-01-12 23:28:30,879 - [epoch:  21/ 30, batch:   400/11216, ite: 112361, time: 192.796331] g_loss : 1.391849, d_loss : 0.459694 
+2023-01-12 23:31:41,737 - [epoch:  21/ 30, batch:   800/11216, ite: 112561, time: 190.857842] g_loss : 1.388913, d_loss : 0.459851 
+2023-01-12 23:34:52,691 - [epoch:  21/ 30, batch:  1200/11216, ite: 112761, time: 190.954341] g_loss : 1.387714, d_loss : 0.459648 
+2023-01-12 23:38:05,242 - [epoch:  21/ 30, batch:  1600/11216, ite: 112961, time: 192.550533] g_loss : 1.379044, d_loss : 0.456920 
+2023-01-12 23:38:42,503 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_113000_G_1.377289_D_0.456369.pth
+2023-01-12 23:41:17,488 - [epoch:  21/ 30, batch:  2000/11216, ite: 113161, time: 192.246102] g_loss : 1.365230, d_loss : 0.457941 
+2023-01-12 23:44:28,538 - [epoch:  21/ 30, batch:  2400/11216, ite: 113361, time: 191.050026] g_loss : 1.372653, d_loss : 0.459791 
+2023-01-12 23:47:39,778 - [epoch:  21/ 30, batch:  2800/11216, ite: 113561, time: 191.240520] g_loss : 1.372426, d_loss : 0.460865 
+2023-01-12 23:50:50,433 - [epoch:  21/ 30, batch:  3200/11216, ite: 113761, time: 190.654431] g_loss : 1.375940, d_loss : 0.460698 
+2023-01-12 23:54:02,852 - [epoch:  21/ 30, batch:  3600/11216, ite: 113961, time: 192.418630] g_loss : 1.382753, d_loss : 0.460550 
+2023-01-12 23:54:40,817 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_114000_G_1.382159_D_0.460790.pth
+2023-01-12 23:57:14,522 - [epoch:  21/ 30, batch:  4000/11216, ite: 114161, time: 191.670081] g_loss : 1.376129, d_loss : 0.462712 
+2023-01-13 00:00:24,005 - [epoch:  21/ 30, batch:  4400/11216, ite: 114361, time: 189.483034] g_loss : 1.386757, d_loss : 0.461507 
+2023-01-13 00:03:33,094 - [epoch:  21/ 30, batch:  4800/11216, ite: 114561, time: 189.089694] g_loss : 1.380377, d_loss : 0.460650 
+2023-01-13 00:06:42,906 - [epoch:  21/ 30, batch:  5200/11216, ite: 114761, time: 189.811419] g_loss : 1.388395, d_loss : 0.455581 
+2023-01-13 00:09:52,195 - [epoch:  21/ 30, batch:  5600/11216, ite: 114961, time: 189.288866] g_loss : 1.382710, d_loss : 0.455514 
+2023-01-13 00:10:29,160 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_115000_G_1.383211_D_0.455268.pth
+2023-01-13 00:13:02,589 - [epoch:  21/ 30, batch:  6000/11216, ite: 115161, time: 190.394647] g_loss : 1.361361, d_loss : 0.463496 
+2023-01-13 00:16:13,636 - [epoch:  21/ 30, batch:  6400/11216, ite: 115361, time: 191.046570] g_loss : 1.381905, d_loss : 0.461568 
+2023-01-13 00:19:22,864 - [epoch:  21/ 30, batch:  6800/11216, ite: 115561, time: 189.227762] g_loss : 1.394808, d_loss : 0.455907 
+2023-01-13 00:22:33,902 - [epoch:  21/ 30, batch:  7200/11216, ite: 115761, time: 191.038606] g_loss : 1.396133, d_loss : 0.455782 
+2023-01-13 00:25:46,105 - [epoch:  21/ 30, batch:  7600/11216, ite: 115961, time: 192.202478] g_loss : 1.400524, d_loss : 0.455917 
+2023-01-13 00:26:23,465 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_116000_G_1.398008_D_0.455975.pth
+2023-01-13 00:28:56,875 - [epoch:  21/ 30, batch:  8000/11216, ite: 116161, time: 190.770230] g_loss : 1.358860, d_loss : 0.461458 
+2023-01-13 00:32:07,239 - [epoch:  21/ 30, batch:  8400/11216, ite: 116361, time: 190.363835] g_loss : 1.370433, d_loss : 0.462715 
+2023-01-13 00:35:17,221 - [epoch:  21/ 30, batch:  8800/11216, ite: 116561, time: 189.981803] g_loss : 1.372731, d_loss : 0.461954 
+2023-01-13 00:38:28,331 - [epoch:  21/ 30, batch:  9200/11216, ite: 116761, time: 191.110160] g_loss : 1.374112, d_loss : 0.461675 
+2023-01-13 00:41:39,741 - [epoch:  21/ 30, batch:  9600/11216, ite: 116961, time: 191.410282] g_loss : 1.375761, d_loss : 0.461497 
+2023-01-13 00:42:17,004 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_117000_G_1.379559_D_0.461325.pth
+2023-01-13 00:44:51,226 - [epoch:  21/ 30, batch: 10000/11216, ite: 117161, time: 191.485005] g_loss : 1.381009, d_loss : 0.462844 
+2023-01-13 00:48:01,839 - [epoch:  21/ 30, batch: 10400/11216, ite: 117361, time: 190.613400] g_loss : 1.380150, d_loss : 0.460961 
+2023-01-13 00:51:12,167 - [epoch:  21/ 30, batch: 10800/11216, ite: 117561, time: 190.327754] g_loss : 1.379696, d_loss : 0.460757 
+2023-01-13 00:54:22,794 - [epoch:  21/ 30, batch: 11200/11216, ite: 117761, time: 190.626678] g_loss : 1.388819, d_loss : 0.460091 
+2023-01-13 00:54:30,485 - [epoch:  22/ 30, batch:     0/11216, ite: 117769, time: 7.691042] g_loss : 1.388440, d_loss : 0.460111 
+2023-01-13 00:57:43,419 - [epoch:  22/ 30, batch:   400/11216, ite: 117969, time: 192.933883] g_loss : 1.386222, d_loss : 0.460136 
+2023-01-13 00:58:13,725 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_118000_G_1.387120_D_0.460113.pth
+2023-01-13 01:00:54,007 - [epoch:  22/ 30, batch:   800/11216, ite: 118169, time: 190.588543] g_loss : 1.378947, d_loss : 0.460372 
+2023-01-13 01:04:05,080 - [epoch:  22/ 30, batch:  1200/11216, ite: 118369, time: 191.072758] g_loss : 1.382546, d_loss : 0.460731 
+2023-01-13 01:07:16,030 - [epoch:  22/ 30, batch:  1600/11216, ite: 118569, time: 190.950352] g_loss : 1.375645, d_loss : 0.461742 
+2023-01-13 01:10:26,874 - [epoch:  22/ 30, batch:  2000/11216, ite: 118769, time: 190.843526] g_loss : 1.372826, d_loss : 0.461669 
+2023-01-13 01:13:37,190 - [epoch:  22/ 30, batch:  2400/11216, ite: 118969, time: 190.316506] g_loss : 1.373942, d_loss : 0.461317 
+2023-01-13 01:14:06,249 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_119000_G_1.373024_D_0.461381.pth
+2023-01-13 01:16:47,652 - [epoch:  22/ 30, batch:  2800/11216, ite: 119169, time: 190.461947] g_loss : 1.377318, d_loss : 0.460647 
+2023-01-13 01:19:57,322 - [epoch:  22/ 30, batch:  3200/11216, ite: 119369, time: 189.669596] g_loss : 1.380688, d_loss : 0.459876 
+2023-01-13 01:23:06,674 - [epoch:  22/ 30, batch:  3600/11216, ite: 119569, time: 189.352201] g_loss : 1.390063, d_loss : 0.459615 
+2023-01-13 01:26:14,386 - [epoch:  22/ 30, batch:  4000/11216, ite: 119769, time: 187.711412] g_loss : 1.385629, d_loss : 0.460292 
+2023-01-13 01:29:23,903 - [epoch:  22/ 30, batch:  4400/11216, ite: 119969, time: 189.517421] g_loss : 1.387395, d_loss : 0.460468 
+2023-01-13 01:29:53,587 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_120000_G_1.385117_D_0.460534.pth
+2023-01-13 01:32:34,864 - [epoch:  22/ 30, batch:  4800/11216, ite: 120169, time: 190.960552] g_loss : 1.376151, d_loss : 0.461025 
+2023-01-13 01:35:45,591 - [epoch:  22/ 30, batch:  5200/11216, ite: 120369, time: 190.727187] g_loss : 1.396160, d_loss : 0.459977 
+2023-01-13 01:38:58,722 - [epoch:  22/ 30, batch:  5600/11216, ite: 120569, time: 193.131014] g_loss : 1.385028, d_loss : 0.460437 
+2023-01-13 01:42:09,569 - [epoch:  22/ 30, batch:  6000/11216, ite: 120769, time: 190.847234] g_loss : 1.381015, d_loss : 0.460911 
+2023-01-13 01:45:20,128 - [epoch:  22/ 30, batch:  6400/11216, ite: 120969, time: 190.559359] g_loss : 1.385503, d_loss : 0.460800 
+2023-01-13 01:45:49,269 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_121000_G_1.384939_D_0.460952.pth
+2023-01-13 01:48:30,971 - [epoch:  22/ 30, batch:  6800/11216, ite: 121169, time: 190.842990] g_loss : 1.386277, d_loss : 0.459193 
+2023-01-13 01:51:43,055 - [epoch:  22/ 30, batch:  7200/11216, ite: 121369, time: 192.083682] g_loss : 1.392433, d_loss : 0.459091 
+2023-01-13 01:54:53,462 - [epoch:  22/ 30, batch:  7600/11216, ite: 121569, time: 190.407069] g_loss : 1.400266, d_loss : 0.458356 
+2023-01-13 01:58:05,614 - [epoch:  22/ 30, batch:  8000/11216, ite: 121769, time: 192.152032] g_loss : 1.387727, d_loss : 0.459061 
+2023-01-13 02:01:17,201 - [epoch:  22/ 30, batch:  8400/11216, ite: 121969, time: 191.587270] g_loss : 1.385535, d_loss : 0.460042 
+2023-01-13 02:01:47,667 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_122000_G_1.386266_D_0.460250.pth
+2023-01-13 02:04:28,502 - [epoch:  22/ 30, batch:  8800/11216, ite: 122169, time: 191.300508] g_loss : 1.369629, d_loss : 0.459817 
+2023-01-13 02:07:38,074 - [epoch:  22/ 30, batch:  9200/11216, ite: 122369, time: 189.572046] g_loss : 1.373288, d_loss : 0.460358 
+2023-01-13 02:10:47,991 - [epoch:  22/ 30, batch:  9600/11216, ite: 122569, time: 189.917269] g_loss : 1.376071, d_loss : 0.460606 
+2023-01-13 02:13:56,455 - [epoch:  22/ 30, batch: 10000/11216, ite: 122769, time: 188.464302] g_loss : 1.381898, d_loss : 0.460843 
+2023-01-13 02:17:05,666 - [epoch:  22/ 30, batch: 10400/11216, ite: 122969, time: 189.210960] g_loss : 1.381282, d_loss : 0.460535 
+2023-01-13 02:17:36,144 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_123000_G_1.381209_D_0.460446.pth
+2023-01-13 02:20:17,961 - [epoch:  22/ 30, batch: 10800/11216, ite: 123169, time: 192.294701] g_loss : 1.377609, d_loss : 0.460585 
+2023-01-13 02:23:29,061 - [epoch:  22/ 30, batch: 11200/11216, ite: 123369, time: 191.100225] g_loss : 1.397297, d_loss : 0.459116 
+2023-01-13 02:23:36,648 - [epoch:  23/ 30, batch:     0/11216, ite: 123377, time: 7.586633] g_loss : 1.396383, d_loss : 0.459126 
+2023-01-13 02:26:46,295 - [epoch:  23/ 30, batch:   400/11216, ite: 123577, time: 189.647124] g_loss : 1.390590, d_loss : 0.459119 
+2023-01-13 02:29:59,260 - [epoch:  23/ 30, batch:   800/11216, ite: 123777, time: 192.965146] g_loss : 1.388887, d_loss : 0.459245 
+2023-01-13 02:33:09,266 - [epoch:  23/ 30, batch:  1200/11216, ite: 123977, time: 190.005839] g_loss : 1.389570, d_loss : 0.459010 
+2023-01-13 02:33:31,149 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_124000_G_1.387567_D_0.458875.pth
+2023-01-13 02:36:19,814 - [epoch:  23/ 30, batch:  1600/11216, ite: 124177, time: 190.547669] g_loss : 1.361475, d_loss : 0.451880 
+2023-01-13 02:39:30,248 - [epoch:  23/ 30, batch:  2000/11216, ite: 124377, time: 190.434585] g_loss : 1.363260, d_loss : 0.452856 
+2023-01-13 02:42:40,443 - [epoch:  23/ 30, batch:  2400/11216, ite: 124577, time: 190.194355] g_loss : 1.370241, d_loss : 0.453881 
+2023-01-13 02:45:49,829 - [epoch:  23/ 30, batch:  2800/11216, ite: 124777, time: 189.385893] g_loss : 1.371468, d_loss : 0.455361 
+2023-01-13 02:48:59,376 - [epoch:  23/ 30, batch:  3200/11216, ite: 124977, time: 189.547043] g_loss : 1.374415, d_loss : 0.455923 
+2023-01-13 02:49:21,324 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_125000_G_1.376153_D_0.456020.pth
+2023-01-13 02:52:09,817 - [epoch:  23/ 30, batch:  3600/11216, ite: 125177, time: 190.441648] g_loss : 1.403471, d_loss : 0.457917 
+2023-01-13 02:55:20,879 - [epoch:  23/ 30, batch:  4000/11216, ite: 125377, time: 191.061716] g_loss : 1.387843, d_loss : 0.459582 
+2023-01-13 02:58:30,860 - [epoch:  23/ 30, batch:  4400/11216, ite: 125577, time: 189.980971] g_loss : 1.390417, d_loss : 0.460000 
+2023-01-13 03:01:42,857 - [epoch:  23/ 30, batch:  4800/11216, ite: 125777, time: 191.997385] g_loss : 1.385181, d_loss : 0.459943 
+2023-01-13 03:04:54,143 - [epoch:  23/ 30, batch:  5200/11216, ite: 125977, time: 191.285199] g_loss : 1.391368, d_loss : 0.459947 
+2023-01-13 03:05:15,956 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_126000_G_1.390142_D_0.459900.pth
+2023-01-13 03:08:06,959 - [epoch:  23/ 30, batch:  5600/11216, ite: 126177, time: 192.816560] g_loss : 1.368693, d_loss : 0.461571 
+2023-01-13 03:11:19,692 - [epoch:  23/ 30, batch:  6000/11216, ite: 126377, time: 192.732903] g_loss : 1.369432, d_loss : 0.461691 
+2023-01-13 03:14:30,710 - [epoch:  23/ 30, batch:  6400/11216, ite: 126577, time: 191.018209] g_loss : 1.381177, d_loss : 0.461153 
+2023-01-13 03:17:41,779 - [epoch:  23/ 30, batch:  6800/11216, ite: 126777, time: 191.069075] g_loss : 1.382210, d_loss : 0.460838 
+2023-01-13 03:20:51,933 - [epoch:  23/ 30, batch:  7200/11216, ite: 126977, time: 190.153393] g_loss : 1.385544, d_loss : 0.460361 
+2023-01-13 03:21:14,047 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_127000_G_1.385025_D_0.460328.pth
+2023-01-13 03:24:02,718 - [epoch:  23/ 30, batch:  7600/11216, ite: 127177, time: 190.785450] g_loss : 1.422347, d_loss : 0.456475 
+2023-01-13 03:27:14,378 - [epoch:  23/ 30, batch:  8000/11216, ite: 127377, time: 191.659899] g_loss : 1.385385, d_loss : 0.458723 
+2023-01-13 03:30:26,410 - [epoch:  23/ 30, batch:  8400/11216, ite: 127577, time: 192.032178] g_loss : 1.382748, d_loss : 0.460277 
+2023-01-13 03:33:39,929 - [epoch:  23/ 30, batch:  8800/11216, ite: 127777, time: 193.518697] g_loss : 1.381057, d_loss : 0.460371 
+2023-01-13 03:36:52,074 - [epoch:  23/ 30, batch:  9200/11216, ite: 127977, time: 192.145322] g_loss : 1.380176, d_loss : 0.460351 
+2023-01-13 03:37:13,934 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_128000_G_1.379810_D_0.460301.pth
+2023-01-13 03:40:02,425 - [epoch:  23/ 30, batch:  9600/11216, ite: 128177, time: 190.350875] g_loss : 1.384031, d_loss : 0.460701 
+2023-01-13 03:43:12,420 - [epoch:  23/ 30, batch: 10000/11216, ite: 128377, time: 189.994945] g_loss : 1.392041, d_loss : 0.460906 
+2023-01-13 03:46:22,841 - [epoch:  23/ 30, batch: 10400/11216, ite: 128577, time: 190.420937] g_loss : 1.387484, d_loss : 0.460127 
+2023-01-13 03:49:32,256 - [epoch:  23/ 30, batch: 10800/11216, ite: 128777, time: 189.415167] g_loss : 1.385056, d_loss : 0.460032 
+2023-01-13 03:52:42,084 - [epoch:  23/ 30, batch: 11200/11216, ite: 128977, time: 189.827580] g_loss : 1.391059, d_loss : 0.459549 
+2023-01-13 03:52:49,692 - [epoch:  24/ 30, batch:     0/11216, ite: 128985, time: 7.608182] g_loss : 1.390759, d_loss : 0.459550 
+2023-01-13 03:53:04,066 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_129000_G_1.390734_D_0.459527.pth
+2023-01-13 03:56:01,629 - [epoch:  24/ 30, batch:   400/11216, ite: 129185, time: 191.937471] g_loss : 1.376864, d_loss : 0.459440 
+2023-01-13 03:59:12,896 - [epoch:  24/ 30, batch:   800/11216, ite: 129385, time: 191.266146] g_loss : 1.380654, d_loss : 0.459286 
+2023-01-13 04:02:22,846 - [epoch:  24/ 30, batch:  1200/11216, ite: 129585, time: 189.950373] g_loss : 1.381735, d_loss : 0.459559 
+2023-01-13 04:05:32,863 - [epoch:  24/ 30, batch:  1600/11216, ite: 129785, time: 190.017049] g_loss : 1.376871, d_loss : 0.460376 
+2023-01-13 04:08:43,818 - [epoch:  24/ 30, batch:  2000/11216, ite: 129985, time: 190.954718] g_loss : 1.374421, d_loss : 0.460445 
+2023-01-13 04:08:58,161 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_130000_G_1.373785_D_0.460361.pth
+2023-01-13 04:11:53,959 - [epoch:  24/ 30, batch:  2400/11216, ite: 130185, time: 190.141336] g_loss : 1.382516, d_loss : 0.459117 
+2023-01-13 04:15:04,765 - [epoch:  24/ 30, batch:  2800/11216, ite: 130385, time: 190.806175] g_loss : 1.377083, d_loss : 0.459611 
+2023-01-13 04:18:14,944 - [epoch:  24/ 30, batch:  3200/11216, ite: 130585, time: 190.179014] g_loss : 1.379449, d_loss : 0.459104 
+2023-01-13 04:21:26,570 - [epoch:  24/ 30, batch:  3600/11216, ite: 130785, time: 191.625407] g_loss : 1.386636, d_loss : 0.458865 
+2023-01-13 04:24:34,604 - [epoch:  24/ 30, batch:  4000/11216, ite: 130985, time: 188.034371] g_loss : 1.383977, d_loss : 0.459294 
+2023-01-13 04:24:48,677 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_131000_G_1.384496_D_0.459269.pth
+2023-01-13 04:27:41,719 - [epoch:  24/ 30, batch:  4400/11216, ite: 131185, time: 187.114866] g_loss : 1.392378, d_loss : 0.460574 
+2023-01-13 04:30:48,542 - [epoch:  24/ 30, batch:  4800/11216, ite: 131385, time: 186.823253] g_loss : 1.380283, d_loss : 0.460163 
+2023-01-13 04:33:55,103 - [epoch:  24/ 30, batch:  5200/11216, ite: 131585, time: 186.560786] g_loss : 1.391458, d_loss : 0.459525 
+2023-01-13 04:37:01,407 - [epoch:  24/ 30, batch:  5600/11216, ite: 131785, time: 186.304048] g_loss : 1.384615, d_loss : 0.459783 
+2023-01-13 04:40:07,674 - [epoch:  24/ 30, batch:  6000/11216, ite: 131985, time: 186.267086] g_loss : 1.381641, d_loss : 0.460019 
+2023-01-13 04:40:21,901 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_132000_G_1.381275_D_0.459952.pth
+2023-01-13 04:43:14,116 - [epoch:  24/ 30, batch:  6400/11216, ite: 132185, time: 186.442338] g_loss : 1.406908, d_loss : 0.459854 
+2023-01-13 04:46:20,052 - [epoch:  24/ 30, batch:  6800/11216, ite: 132385, time: 185.935834] g_loss : 1.394957, d_loss : 0.459704 
+2023-01-13 04:49:26,233 - [epoch:  24/ 30, batch:  7200/11216, ite: 132585, time: 186.180588] g_loss : 1.396057, d_loss : 0.459120 
+2023-01-13 04:52:32,165 - [epoch:  24/ 30, batch:  7600/11216, ite: 132785, time: 185.932241] g_loss : 1.400973, d_loss : 0.458353 
+2023-01-13 04:55:37,994 - [epoch:  24/ 30, batch:  8000/11216, ite: 132985, time: 185.828460] g_loss : 1.391100, d_loss : 0.458784 
+2023-01-13 04:55:52,320 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_133000_G_1.391109_D_0.458736.pth
+2023-01-13 04:58:44,918 - [epoch:  24/ 30, batch:  8400/11216, ite: 133185, time: 186.924623] g_loss : 1.376180, d_loss : 0.463330 
+2023-01-13 05:01:50,711 - [epoch:  24/ 30, batch:  8800/11216, ite: 133385, time: 185.792358] g_loss : 1.376105, d_loss : 0.461599 
+2023-01-13 05:03:42,193 - [epoch:  24/ 30, batch:  9200/11216, ite: 133585, time: 111.482538] g_loss : 1.376308, d_loss : 0.461027 
+2023-01-13 05:05:30,235 - [epoch:  24/ 30, batch:  9600/11216, ite: 133785, time: 108.041883] g_loss : 1.377612, d_loss : 0.460706 
+2023-01-13 05:07:18,459 - [epoch:  24/ 30, batch: 10000/11216, ite: 133985, time: 108.223644] g_loss : 1.381882, d_loss : 0.460657 
+2023-01-13 05:07:26,669 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_134000_G_1.381193_D_0.460578.pth
+2023-01-13 05:09:06,492 - [epoch:  24/ 30, batch: 10400/11216, ite: 134185, time: 108.033530] g_loss : 1.382376, d_loss : 0.458366 
+2023-01-13 05:10:54,341 - [epoch:  24/ 30, batch: 10800/11216, ite: 134385, time: 107.849344] g_loss : 1.380136, d_loss : 0.458870 
+2023-01-13 05:12:42,579 - [epoch:  24/ 30, batch: 11200/11216, ite: 134585, time: 108.237478] g_loss : 1.391843, d_loss : 0.458242 
+2023-01-13 05:12:47,006 - [epoch:  25/ 30, batch:     0/11216, ite: 134593, time: 4.427209] g_loss : 1.391333, d_loss : 0.458230 
+2023-01-13 05:14:35,185 - [epoch:  25/ 30, batch:   400/11216, ite: 134793, time: 108.179242] g_loss : 1.387913, d_loss : 0.458361 
+2023-01-13 05:16:23,556 - [epoch:  25/ 30, batch:   800/11216, ite: 134993, time: 108.370585] g_loss : 1.387146, d_loss : 0.458405 
+2023-01-13 05:16:27,422 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_135000_G_1.386530_D_0.458430.pth
+2023-01-13 05:18:12,265 - [epoch:  25/ 30, batch:  1200/11216, ite: 135193, time: 108.709426] g_loss : 1.387507, d_loss : 0.459731 
+2023-01-13 05:20:00,549 - [epoch:  25/ 30, batch:  1600/11216, ite: 135393, time: 108.283144] g_loss : 1.374675, d_loss : 0.460914 
+2023-01-13 05:21:48,640 - [epoch:  25/ 30, batch:  2000/11216, ite: 135593, time: 108.091226] g_loss : 1.371290, d_loss : 0.460772 
+2023-01-13 05:23:36,847 - [epoch:  25/ 30, batch:  2400/11216, ite: 135793, time: 108.207497] g_loss : 1.373124, d_loss : 0.460189 
+2023-01-13 05:25:24,959 - [epoch:  25/ 30, batch:  2800/11216, ite: 135993, time: 108.112138] g_loss : 1.372813, d_loss : 0.460068 
+2023-01-13 05:25:28,851 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_136000_G_1.373450_D_0.460029.pth
+2023-01-13 05:27:13,403 - [epoch:  25/ 30, batch:  3200/11216, ite: 136193, time: 108.443571] g_loss : 1.380878, d_loss : 0.458079 
+2023-01-13 05:29:01,850 - [epoch:  25/ 30, batch:  3600/11216, ite: 136393, time: 108.447154] g_loss : 1.394515, d_loss : 0.457853 
+2023-01-13 05:30:50,210 - [epoch:  25/ 30, batch:  4000/11216, ite: 136593, time: 108.360140] g_loss : 1.387314, d_loss : 0.458743 
+2023-01-13 05:32:38,422 - [epoch:  25/ 30, batch:  4400/11216, ite: 136793, time: 108.211651] g_loss : 1.389009, d_loss : 0.459031 
+2023-01-13 05:34:26,509 - [epoch:  25/ 30, batch:  4800/11216, ite: 136993, time: 108.086935] g_loss : 1.384859, d_loss : 0.459069 
+2023-01-13 05:34:30,397 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_137000_G_1.385993_D_0.459025.pth
+2023-01-13 05:36:14,776 - [epoch:  25/ 30, batch:  5200/11216, ite: 137193, time: 108.267606] g_loss : 1.408007, d_loss : 0.458004 
+2023-01-13 05:38:02,682 - [epoch:  25/ 30, batch:  5600/11216, ite: 137393, time: 107.905101] g_loss : 1.385873, d_loss : 0.459093 
+2023-01-13 05:39:51,052 - [epoch:  25/ 30, batch:  6000/11216, ite: 137593, time: 108.370575] g_loss : 1.380487, d_loss : 0.459588 
+2023-01-13 05:41:39,278 - [epoch:  25/ 30, batch:  6400/11216, ite: 137793, time: 108.225975] g_loss : 1.386165, d_loss : 0.459440 
+2023-01-13 05:43:27,362 - [epoch:  25/ 30, batch:  6800/11216, ite: 137993, time: 108.083915] g_loss : 1.385686, d_loss : 0.459322 
+2023-01-13 05:43:31,217 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_138000_G_1.386792_D_0.459286.pth
+2023-01-13 05:45:15,558 - [epoch:  25/ 30, batch:  7200/11216, ite: 138193, time: 108.195854] g_loss : 1.392840, d_loss : 0.457540 
+2023-01-13 05:47:03,998 - [epoch:  25/ 30, batch:  7600/11216, ite: 138393, time: 108.439819] g_loss : 1.404511, d_loss : 0.456644 
+2023-01-13 05:48:52,622 - [epoch:  25/ 30, batch:  8000/11216, ite: 138593, time: 108.624437] g_loss : 1.387124, d_loss : 0.457626 
+2023-01-13 05:50:41,097 - [epoch:  25/ 30, batch:  8400/11216, ite: 138793, time: 108.475233] g_loss : 1.384788, d_loss : 0.458546 
+2023-01-13 05:52:29,569 - [epoch:  25/ 30, batch:  8800/11216, ite: 138993, time: 108.471818] g_loss : 1.383122, d_loss : 0.458919 
+2023-01-13 05:52:33,459 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_139000_G_1.384148_D_0.458926.pth
+2023-01-13 05:54:18,247 - [epoch:  25/ 30, batch:  9200/11216, ite: 139193, time: 108.677900] g_loss : 1.371132, d_loss : 0.459216 
+2023-01-13 05:56:06,409 - [epoch:  25/ 30, batch:  9600/11216, ite: 139393, time: 108.162368] g_loss : 1.376323, d_loss : 0.459181 
+2023-01-13 05:57:54,887 - [epoch:  25/ 30, batch: 10000/11216, ite: 139593, time: 108.477602] g_loss : 1.383832, d_loss : 0.459605 
+2023-01-13 05:59:43,343 - [epoch:  25/ 30, batch: 10400/11216, ite: 139793, time: 108.456092] g_loss : 1.382589, d_loss : 0.459147 
+2023-01-13 06:01:31,498 - [epoch:  25/ 30, batch: 10800/11216, ite: 139993, time: 108.154594] g_loss : 1.381638, d_loss : 0.459123 
+2023-01-13 06:01:35,331 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_140000_G_1.382113_D_0.459083.pth
+2023-01-13 06:03:19,513 - [epoch:  25/ 30, batch: 11200/11216, ite: 140193, time: 108.015539] g_loss : 1.412977, d_loss : 0.456969 
+2023-01-13 06:03:23,827 - [epoch:  26/ 30, batch:     0/11216, ite: 140201, time: 4.314128] g_loss : 1.410651, d_loss : 0.457032 
+2023-01-13 06:05:11,967 - [epoch:  26/ 30, batch:   400/11216, ite: 140401, time: 108.139141] g_loss : 1.394191, d_loss : 0.457652 
+2023-01-13 06:07:00,120 - [epoch:  26/ 30, batch:   800/11216, ite: 140601, time: 108.153449] g_loss : 1.390787, d_loss : 0.457856 
+2023-01-13 06:08:48,465 - [epoch:  26/ 30, batch:  1200/11216, ite: 140801, time: 108.345151] g_loss : 1.389073, d_loss : 0.458221 
+2023-01-13 06:10:36,214 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_141000_G_1.383457_D_0.458875.pth
+2023-01-13 06:10:36,781 - [epoch:  26/ 30, batch:  1600/11216, ite: 141001, time: 108.315885] g_loss : 1.660210, d_loss : 0.452632 
+2023-01-13 06:12:25,122 - [epoch:  26/ 30, batch:  2000/11216, ite: 141201, time: 108.340893] g_loss : 1.366178, d_loss : 0.459902 
+2023-01-13 06:14:13,416 - [epoch:  26/ 30, batch:  2400/11216, ite: 141401, time: 108.293685] g_loss : 1.372259, d_loss : 0.458981 
+2023-01-13 06:16:01,771 - [epoch:  26/ 30, batch:  2800/11216, ite: 141601, time: 108.355077] g_loss : 1.372082, d_loss : 0.459041 
+2023-01-13 06:17:50,326 - [epoch:  26/ 30, batch:  3200/11216, ite: 141801, time: 108.555272] g_loss : 1.374981, d_loss : 0.458589 
+2023-01-13 06:19:38,438 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_142000_G_1.381169_D_0.458348.pth
+2023-01-13 06:19:39,005 - [epoch:  26/ 30, batch:  3600/11216, ite: 142001, time: 108.679307] g_loss : 1.658764, d_loss : 0.454789 
+2023-01-13 06:21:27,473 - [epoch:  26/ 30, batch:  4000/11216, ite: 142201, time: 108.467716] g_loss : 1.374725, d_loss : 0.459973 
+2023-01-13 06:23:15,925 - [epoch:  26/ 30, batch:  4400/11216, ite: 142401, time: 108.451958] g_loss : 1.384561, d_loss : 0.459574 
+2023-01-13 06:25:04,434 - [epoch:  26/ 30, batch:  4800/11216, ite: 142601, time: 108.509119] g_loss : 1.379086, d_loss : 0.459267 
+2023-01-13 06:26:53,203 - [epoch:  26/ 30, batch:  5200/11216, ite: 142801, time: 108.768669] g_loss : 1.387545, d_loss : 0.458800 
+2023-01-13 06:28:40,830 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_143000_G_1.383189_D_0.458864.pth
+2023-01-13 06:28:41,395 - [epoch:  26/ 30, batch:  5600/11216, ite: 143001, time: 108.192590] g_loss : 1.516089, d_loss : 0.459347 
+2023-01-13 06:30:29,350 - [epoch:  26/ 30, batch:  6000/11216, ite: 143201, time: 107.954443] g_loss : 1.370857, d_loss : 0.459137 
+2023-01-13 06:32:17,658 - [epoch:  26/ 30, batch:  6400/11216, ite: 143401, time: 108.308409] g_loss : 1.387046, d_loss : 0.458770 
+2023-01-13 06:34:05,826 - [epoch:  26/ 30, batch:  6800/11216, ite: 143601, time: 108.167860] g_loss : 1.386053, d_loss : 0.458673 
+2023-01-13 06:35:53,992 - [epoch:  26/ 30, batch:  7200/11216, ite: 143801, time: 108.166123] g_loss : 1.389069, d_loss : 0.458339 
+2023-01-13 06:37:42,037 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_144000_G_1.394482_D_0.457785.pth
+2023-01-13 06:37:42,576 - [epoch:  26/ 30, batch:  7600/11216, ite: 144001, time: 108.583815] g_loss : 1.219906, d_loss : 0.464015 
+2023-01-13 06:39:30,877 - [epoch:  26/ 30, batch:  8000/11216, ite: 144201, time: 108.300741] g_loss : 1.351866, d_loss : 0.459393 
+2023-01-13 06:41:19,077 - [epoch:  26/ 30, batch:  8400/11216, ite: 144401, time: 108.200515] g_loss : 1.364584, d_loss : 0.460575 
+2023-01-13 06:43:07,449 - [epoch:  26/ 30, batch:  8800/11216, ite: 144601, time: 108.372196] g_loss : 1.368409, d_loss : 0.460127 
+2023-01-13 06:44:56,167 - [epoch:  26/ 30, batch:  9200/11216, ite: 144801, time: 108.717178] g_loss : 1.370468, d_loss : 0.459858 
+2023-01-13 06:46:44,441 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_145000_G_1.372522_D_0.459667.pth
+2023-01-13 06:46:44,988 - [epoch:  26/ 30, batch:  9600/11216, ite: 145001, time: 108.821521] g_loss : 1.450494, d_loss : 0.452312 
+2023-01-13 06:48:33,253 - [epoch:  26/ 30, batch: 10000/11216, ite: 145201, time: 108.265182] g_loss : 1.398716, d_loss : 0.459756 
+2023-01-13 06:50:21,531 - [epoch:  26/ 30, batch: 10400/11216, ite: 145401, time: 108.277673] g_loss : 1.388800, d_loss : 0.458731 
+2023-01-13 06:52:10,145 - [epoch:  26/ 30, batch: 10800/11216, ite: 145601, time: 108.614466] g_loss : 1.385167, d_loss : 0.458622 
+2023-01-13 06:53:58,587 - [epoch:  26/ 30, batch: 11200/11216, ite: 145801, time: 108.441704] g_loss : 1.392419, d_loss : 0.458080 
+2023-01-13 06:54:02,991 - [epoch:  27/ 30, batch:     0/11216, ite: 145809, time: 4.403780] g_loss : 1.392037, d_loss : 0.458085 
+2023-01-13 06:55:46,363 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_146000_G_1.387142_D_0.458099.pth
+2023-01-13 06:55:51,196 - [epoch:  27/ 30, batch:   400/11216, ite: 146009, time: 108.205061] g_loss : 1.615097, d_loss : 0.453609 
+2023-01-13 06:57:39,203 - [epoch:  27/ 30, batch:   800/11216, ite: 146209, time: 108.007156] g_loss : 1.394006, d_loss : 0.457719 
+2023-01-13 06:59:27,774 - [epoch:  27/ 30, batch:  1200/11216, ite: 146409, time: 108.571167] g_loss : 1.388832, d_loss : 0.458333 
+2023-01-13 07:01:16,165 - [epoch:  27/ 30, batch:  1600/11216, ite: 146609, time: 108.390628] g_loss : 1.380066, d_loss : 0.459264 
+2023-01-13 07:03:04,493 - [epoch:  27/ 30, batch:  2000/11216, ite: 146809, time: 108.327873] g_loss : 1.376251, d_loss : 0.459349 
+2023-01-13 07:04:47,913 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_147000_G_1.376654_D_0.458971.pth
+2023-01-13 07:04:52,750 - [epoch:  27/ 30, batch:  2400/11216, ite: 147009, time: 108.256860] g_loss : 1.378895, d_loss : 0.461458 
+2023-01-13 07:06:40,963 - [epoch:  27/ 30, batch:  2800/11216, ite: 147209, time: 108.213109] g_loss : 1.371707, d_loss : 0.458948 
+2023-01-13 07:08:28,943 - [epoch:  27/ 30, batch:  3200/11216, ite: 147409, time: 107.980065] g_loss : 1.377541, d_loss : 0.458018 
+2023-01-13 07:10:17,249 - [epoch:  27/ 30, batch:  3600/11216, ite: 147609, time: 108.306162] g_loss : 1.387392, d_loss : 0.457650 
+2023-01-13 07:12:05,848 - [epoch:  27/ 30, batch:  4000/11216, ite: 147809, time: 108.599371] g_loss : 1.383615, d_loss : 0.457051 
+2023-01-13 07:13:49,508 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_148000_G_1.383567_D_0.454348.pth
+2023-01-13 07:13:54,353 - [epoch:  27/ 30, batch:  4400/11216, ite: 148009, time: 108.504845] g_loss : 1.410955, d_loss : 0.409659 
+2023-01-13 07:15:43,039 - [epoch:  27/ 30, batch:  4800/11216, ite: 148209, time: 108.686268] g_loss : 1.384469, d_loss : 0.458644 
+2023-01-13 07:17:31,529 - [epoch:  27/ 30, batch:  5200/11216, ite: 148409, time: 108.489685] g_loss : 1.400033, d_loss : 0.456781 
+2023-01-13 07:19:20,185 - [epoch:  27/ 30, batch:  5600/11216, ite: 148609, time: 108.656241] g_loss : 1.388749, d_loss : 0.457253 
+2023-01-13 07:21:08,623 - [epoch:  27/ 30, batch:  6000/11216, ite: 148809, time: 108.437118] g_loss : 1.384184, d_loss : 0.457844 
+2023-01-13 07:22:52,075 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_149000_G_1.388075_D_0.457959.pth
+2023-01-13 07:22:56,926 - [epoch:  27/ 30, batch:  6400/11216, ite: 149009, time: 108.303607] g_loss : 1.386421, d_loss : 0.454762 
+2023-01-13 07:24:44,955 - [epoch:  27/ 30, batch:  6800/11216, ite: 149209, time: 108.029309] g_loss : 1.384362, d_loss : 0.457915 
+2023-01-13 07:26:33,322 - [epoch:  27/ 30, batch:  7200/11216, ite: 149409, time: 108.366877] g_loss : 1.391396, d_loss : 0.457224 
+2023-01-13 07:28:21,537 - [epoch:  27/ 30, batch:  7600/11216, ite: 149609, time: 108.214666] g_loss : 1.399200, d_loss : 0.456562 
+2023-01-13 07:30:09,970 - [epoch:  27/ 30, batch:  8000/11216, ite: 149809, time: 108.433205] g_loss : 1.387788, d_loss : 0.457246 
+2023-01-13 07:31:53,582 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_150000_G_1.386144_D_0.457978.pth
+2023-01-13 07:31:58,511 - [epoch:  27/ 30, batch:  8400/11216, ite: 150009, time: 108.540848] g_loss : 1.346852, d_loss : 0.456631 
+2023-01-13 07:33:47,114 - [epoch:  27/ 30, batch:  8800/11216, ite: 150209, time: 108.602723] g_loss : 1.375198, d_loss : 0.458548 
+2023-01-13 07:35:35,226 - [epoch:  27/ 30, batch:  9200/11216, ite: 150409, time: 108.112343] g_loss : 1.376044, d_loss : 0.458524 
+2023-01-13 07:37:23,031 - [epoch:  27/ 30, batch:  9600/11216, ite: 150609, time: 107.804849] g_loss : 1.377638, d_loss : 0.458475 
+2023-01-13 07:39:11,078 - [epoch:  27/ 30, batch: 10000/11216, ite: 150809, time: 108.047136] g_loss : 1.382754, d_loss : 0.458743 
+2023-01-13 07:40:54,093 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_151000_G_1.381518_D_0.458466.pth
+2023-01-13 07:40:59,034 - [epoch:  27/ 30, batch: 10400/11216, ite: 151009, time: 107.955672] g_loss : 1.439489, d_loss : 0.452308 
+2023-01-13 07:42:47,310 - [epoch:  27/ 30, batch: 10800/11216, ite: 151209, time: 108.276034] g_loss : 1.380741, d_loss : 0.457970 
+2023-01-13 07:44:35,672 - [epoch:  27/ 30, batch: 11200/11216, ite: 151409, time: 108.361851] g_loss : 1.397417, d_loss : 0.456514 
+2023-01-13 07:44:39,970 - [epoch:  28/ 30, batch:     0/11216, ite: 151417, time: 4.298805] g_loss : 1.396539, d_loss : 0.456452 
+2023-01-13 07:46:28,187 - [epoch:  28/ 30, batch:   400/11216, ite: 151617, time: 108.216599] g_loss : 1.390094, d_loss : 0.456236 
+2023-01-13 07:48:16,106 - [epoch:  28/ 30, batch:   800/11216, ite: 151817, time: 107.918646] g_loss : 1.388700, d_loss : 0.456521 
+2023-01-13 07:49:54,888 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_152000_G_1.389236_D_0.457016.pth
+2023-01-13 07:50:04,110 - [epoch:  28/ 30, batch:  1200/11216, ite: 152017, time: 108.004394] g_loss : 1.301239, d_loss : 0.456783 
+2023-01-13 07:51:52,205 - [epoch:  28/ 30, batch:  1600/11216, ite: 152217, time: 108.095031] g_loss : 1.358174, d_loss : 0.460119 
+2023-01-13 07:53:40,058 - [epoch:  28/ 30, batch:  2000/11216, ite: 152417, time: 107.852868] g_loss : 1.361616, d_loss : 0.459916 
+2023-01-13 07:55:27,929 - [epoch:  28/ 30, batch:  2400/11216, ite: 152617, time: 107.870793] g_loss : 1.367084, d_loss : 0.459053 
+2023-01-13 07:57:15,778 - [epoch:  28/ 30, batch:  2800/11216, ite: 152817, time: 107.849491] g_loss : 1.368205, d_loss : 0.458840 
+2023-01-13 07:58:54,774 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_153000_G_1.372636_D_0.458425.pth
+2023-01-13 07:59:03,908 - [epoch:  28/ 30, batch:  3200/11216, ite: 153017, time: 108.130100] g_loss : 1.292231, d_loss : 0.460662 
+2023-01-13 08:00:51,934 - [epoch:  28/ 30, batch:  3600/11216, ite: 153217, time: 108.025241] g_loss : 1.399040, d_loss : 0.456933 
+2023-01-13 08:02:40,021 - [epoch:  28/ 30, batch:  4000/11216, ite: 153417, time: 108.087333] g_loss : 1.386654, d_loss : 0.457995 
+2023-01-13 08:04:27,874 - [epoch:  28/ 30, batch:  4400/11216, ite: 153617, time: 107.853020] g_loss : 1.389148, d_loss : 0.458209 
+2023-01-13 08:06:16,113 - [epoch:  28/ 30, batch:  4800/11216, ite: 153817, time: 108.238785] g_loss : 1.384164, d_loss : 0.458202 
+2023-01-13 08:07:55,223 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_154000_G_1.390188_D_0.457911.pth
+2023-01-13 08:08:04,403 - [epoch:  28/ 30, batch:  5200/11216, ite: 154017, time: 108.290315] g_loss : 1.366642, d_loss : 0.454904 
+2023-01-13 08:09:52,462 - [epoch:  28/ 30, batch:  5600/11216, ite: 154217, time: 108.058483] g_loss : 1.364940, d_loss : 0.458575 
+2023-01-13 08:11:40,684 - [epoch:  28/ 30, batch:  6000/11216, ite: 154417, time: 108.222746] g_loss : 1.367551, d_loss : 0.459017 
+2023-01-13 08:13:28,815 - [epoch:  28/ 30, batch:  6400/11216, ite: 154617, time: 108.131221] g_loss : 1.379134, d_loss : 0.458776 
+2023-01-13 08:15:16,719 - [epoch:  28/ 30, batch:  6800/11216, ite: 154817, time: 107.903341] g_loss : 1.380357, d_loss : 0.458514 
+2023-01-13 08:16:55,823 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_155000_G_1.383729_D_0.458143.pth
+2023-01-13 08:17:05,016 - [epoch:  28/ 30, batch:  7200/11216, ite: 155017, time: 108.296624] g_loss : 1.393116, d_loss : 0.451380 
+2023-01-13 08:18:53,010 - [epoch:  28/ 30, batch:  7600/11216, ite: 155217, time: 107.994159] g_loss : 1.413748, d_loss : 0.455060 
+2023-01-13 08:20:40,974 - [epoch:  28/ 30, batch:  8000/11216, ite: 155417, time: 107.964231] g_loss : 1.384258, d_loss : 0.456487 
+2023-01-13 08:22:28,862 - [epoch:  28/ 30, batch:  8400/11216, ite: 155617, time: 107.888428] g_loss : 1.381959, d_loss : 0.458119 
+2023-01-13 08:24:16,908 - [epoch:  28/ 30, batch:  8800/11216, ite: 155817, time: 108.045590] g_loss : 1.380578, d_loss : 0.458131 
+2023-01-13 08:25:55,510 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_156000_G_1.380338_D_0.457983.pth
+2023-01-13 08:26:04,699 - [epoch:  28/ 30, batch:  9200/11216, ite: 156017, time: 107.791248] g_loss : 1.349299, d_loss : 0.461766 
+2023-01-13 08:27:52,922 - [epoch:  28/ 30, batch:  9600/11216, ite: 156217, time: 108.223343] g_loss : 1.370052, d_loss : 0.447072 
+2023-01-13 08:29:40,957 - [epoch:  28/ 30, batch: 10000/11216, ite: 156417, time: 108.034467] g_loss : 1.380858, d_loss : 0.449122 
+2023-01-13 08:31:29,178 - [epoch:  28/ 30, batch: 10400/11216, ite: 156617, time: 108.221427] g_loss : 1.379900, d_loss : 0.451145 
+2023-01-13 08:33:17,222 - [epoch:  28/ 30, batch: 10800/11216, ite: 156817, time: 108.043427] g_loss : 1.379565, d_loss : 0.452689 
+2023-01-13 08:34:55,907 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_157000_G_1.387318_D_0.453413.pth
+2023-01-13 08:35:05,109 - [epoch:  28/ 30, batch: 11200/11216, ite: 157017, time: 107.886889] g_loss : 1.460293, d_loss : 0.444570 
+2023-01-13 08:35:09,437 - [epoch:  29/ 30, batch:     0/11216, ite: 157025, time: 4.328105] g_loss : 1.425490, d_loss : 0.445275 
+2023-01-13 08:36:57,540 - [epoch:  29/ 30, batch:   400/11216, ite: 157225, time: 108.103125] g_loss : 1.382899, d_loss : 0.449723 
+2023-01-13 08:38:45,771 - [epoch:  29/ 30, batch:   800/11216, ite: 157425, time: 108.231114] g_loss : 1.385003, d_loss : 0.451598 
+2023-01-13 08:40:33,689 - [epoch:  29/ 30, batch:  1200/11216, ite: 157625, time: 107.918282] g_loss : 1.386861, d_loss : 0.454384 
+2023-01-13 08:42:21,593 - [epoch:  29/ 30, batch:  1600/11216, ite: 157825, time: 107.903767] g_loss : 1.381386, d_loss : 0.456024 
+2023-01-13 08:43:56,524 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_158000_G_1.379528_D_0.456638.pth
+2023-01-13 08:44:10,039 - [epoch:  29/ 30, batch:  2000/11216, ite: 158025, time: 108.445482] g_loss : 1.335164, d_loss : 0.455343 
+2023-01-13 08:45:58,518 - [epoch:  29/ 30, batch:  2400/11216, ite: 158225, time: 108.479647] g_loss : 1.374981, d_loss : 0.456679 
+2023-01-13 08:47:46,537 - [epoch:  29/ 30, batch:  2800/11216, ite: 158425, time: 108.018319] g_loss : 1.373761, d_loss : 0.457599 
+2023-01-13 08:49:34,496 - [epoch:  29/ 30, batch:  3200/11216, ite: 158625, time: 107.959507] g_loss : 1.377138, d_loss : 0.457308 
+2023-01-13 08:51:22,507 - [epoch:  29/ 30, batch:  3600/11216, ite: 158825, time: 108.010882] g_loss : 1.384731, d_loss : 0.457145 
+2023-01-13 08:52:57,203 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_159000_G_1.382498_D_0.457594.pth
+2023-01-13 08:53:10,633 - [epoch:  29/ 30, batch:  4000/11216, ite: 159025, time: 108.126440] g_loss : 1.384325, d_loss : 0.457503 
+2023-01-13 08:54:58,830 - [epoch:  29/ 30, batch:  4400/11216, ite: 159225, time: 108.196848] g_loss : 1.393921, d_loss : 0.457732 
+2023-01-13 08:56:46,981 - [epoch:  29/ 30, batch:  4800/11216, ite: 159425, time: 108.151165] g_loss : 1.381610, d_loss : 0.457999 
+2023-01-13 08:58:35,416 - [epoch:  29/ 30, batch:  5200/11216, ite: 159625, time: 108.434445] g_loss : 1.391880, d_loss : 0.457613 
+2023-01-13 09:00:23,678 - [epoch:  29/ 30, batch:  5600/11216, ite: 159825, time: 108.262634] g_loss : 1.385348, d_loss : 0.457886 
+2023-01-13 09:01:58,247 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_160000_G_1.383350_D_0.458327.pth
+2023-01-13 09:02:11,740 - [epoch:  29/ 30, batch:  6000/11216, ite: 160025, time: 108.062054] g_loss : 1.340154, d_loss : 0.456211 
+2023-01-13 09:04:00,100 - [epoch:  29/ 30, batch:  6400/11216, ite: 160225, time: 108.359138] g_loss : 1.396427, d_loss : 0.457851 
+2023-01-13 09:05:48,160 - [epoch:  29/ 30, batch:  6800/11216, ite: 160425, time: 108.060809] g_loss : 1.390979, d_loss : 0.457758 
+2023-01-13 09:07:36,390 - [epoch:  29/ 30, batch:  7200/11216, ite: 160625, time: 108.229293] g_loss : 1.393334, d_loss : 0.457305 
+2023-01-13 09:09:45,061 - [epoch:  29/ 30, batch:  7600/11216, ite: 160825, time: 128.671315] g_loss : 1.398664, d_loss : 0.456669 
+2023-01-13 09:12:42,255 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_161000_G_1.388737_D_0.457148.pth
+2023-01-13 09:13:06,695 - [epoch:  29/ 30, batch:  8000/11216, ite: 161025, time: 201.634178] g_loss : 1.431731, d_loss : 0.454002 
+2023-01-13 09:16:26,751 - [epoch:  29/ 30, batch:  8400/11216, ite: 161225, time: 200.056108] g_loss : 1.384060, d_loss : 0.459578 
+2023-01-13 09:19:52,670 - [epoch:  29/ 30, batch:  8800/11216, ite: 161425, time: 205.918778] g_loss : 1.380274, d_loss : 0.458805 
+2023-01-13 09:23:14,850 - [epoch:  29/ 30, batch:  9200/11216, ite: 161625, time: 202.180211] g_loss : 1.379275, d_loss : 0.458555 
+2023-01-13 09:26:37,406 - [epoch:  29/ 30, batch:  9600/11216, ite: 161825, time: 202.556104] g_loss : 1.379811, d_loss : 0.458521 
+2023-01-13 09:29:37,453 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_162000_G_1.384437_D_0.458690.pth
+2023-01-13 09:30:01,793 - [epoch:  29/ 30, batch: 10000/11216, ite: 162025, time: 204.386368] g_loss : 1.345789, d_loss : 0.456232 
+2023-01-13 09:33:23,347 - [epoch:  29/ 30, batch: 10400/11216, ite: 162225, time: 201.554137] g_loss : 1.375904, d_loss : 0.456459 
+2023-01-13 09:36:42,025 - [epoch:  29/ 30, batch: 10800/11216, ite: 162425, time: 198.677975] g_loss : 1.376982, d_loss : 0.457183 
+2023-01-13 09:40:07,224 - [epoch:  29/ 30, batch: 11200/11216, ite: 162625, time: 205.198612] g_loss : 1.389005, d_loss : 0.456746 
+2023-01-13 09:40:15,019 - [epoch:  30/ 30, batch:     0/11216, ite: 162633, time: 7.795851] g_loss : 1.388580, d_loss : 0.456759 
+2023-01-13 09:43:38,662 - [epoch:  30/ 30, batch:   400/11216, ite: 162833, time: 203.642671] g_loss : 1.386104, d_loss : 0.456718 
+2023-01-13 09:46:31,055 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_163000_G_1.385810_D_0.456769.pth
+2023-01-13 09:47:04,461 - [epoch:  30/ 30, batch:   800/11216, ite: 163033, time: 205.798863] g_loss : 1.382339, d_loss : 0.454738 
+2023-01-13 09:50:28,294 - [epoch:  30/ 30, batch:  1200/11216, ite: 163233, time: 203.833526] g_loss : 1.383893, d_loss : 0.457711 
+2023-01-13 09:53:49,858 - [epoch:  30/ 30, batch:  1600/11216, ite: 163433, time: 201.563319] g_loss : 1.374120, d_loss : 0.458118 
+2023-01-13 09:57:10,230 - [epoch:  30/ 30, batch:  2000/11216, ite: 163633, time: 200.372153] g_loss : 1.371047, d_loss : 0.458484 
+2023-01-13 10:00:32,419 - [epoch:  30/ 30, batch:  2400/11216, ite: 163833, time: 202.188712] g_loss : 1.373062, d_loss : 0.457695 
+2023-01-13 10:03:17,887 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_164000_G_1.372614_D_0.457638.pth
+2023-01-13 10:03:51,972 - [epoch:  30/ 30, batch:  2800/11216, ite: 164033, time: 199.553550] g_loss : 1.382791, d_loss : 0.459639 
+2023-01-13 10:07:14,810 - [epoch:  30/ 30, batch:  3200/11216, ite: 164233, time: 202.837630] g_loss : 1.383770, d_loss : 0.456421 
+2023-01-13 10:10:35,424 - [epoch:  30/ 30, batch:  3600/11216, ite: 164433, time: 200.613987] g_loss : 1.394841, d_loss : 0.456289 
+2023-01-13 10:13:58,505 - [epoch:  30/ 30, batch:  4000/11216, ite: 164633, time: 203.081141] g_loss : 1.388061, d_loss : 0.457033 
+2023-01-13 10:17:18,283 - [epoch:  30/ 30, batch:  4400/11216, ite: 164833, time: 199.778287] g_loss : 1.389585, d_loss : 0.457293 
+2023-01-13 10:20:07,825 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_165000_G_1.384326_D_0.457402.pth
+2023-01-13 10:20:42,223 - [epoch:  30/ 30, batch:  4800/11216, ite: 165033, time: 203.939916] g_loss : 1.410307, d_loss : 0.457590 
+2023-01-13 10:24:04,651 - [epoch:  30/ 30, batch:  5200/11216, ite: 165233, time: 202.427401] g_loss : 1.412431, d_loss : 0.456451 
+2023-01-13 10:27:26,741 - [epoch:  30/ 30, batch:  5600/11216, ite: 165433, time: 202.090967] g_loss : 1.390395, d_loss : 0.457319 
+2023-01-13 10:30:48,974 - [epoch:  30/ 30, batch:  6000/11216, ite: 165633, time: 202.232848] g_loss : 1.383948, d_loss : 0.457839 
+2023-01-13 10:34:07,406 - [epoch:  30/ 30, batch:  6400/11216, ite: 165833, time: 198.431947] g_loss : 1.388530, d_loss : 0.457718 
+2023-01-13 10:36:53,747 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_166000_G_1.387695_D_0.457699.pth
+2023-01-13 10:37:26,132 - [epoch:  30/ 30, batch:  6800/11216, ite: 166033, time: 198.726060] g_loss : 1.386276, d_loss : 0.454843 
+2023-01-13 10:40:43,435 - [epoch:  30/ 30, batch:  7200/11216, ite: 166233, time: 197.302331] g_loss : 1.396456, d_loss : 0.455866 
+2023-01-13 10:44:05,565 - [epoch:  30/ 30, batch:  7600/11216, ite: 166433, time: 202.130785] g_loss : 1.405237, d_loss : 0.455135 
+2023-01-13 10:47:28,423 - [epoch:  30/ 30, batch:  8000/11216, ite: 166633, time: 202.857809] g_loss : 1.388507, d_loss : 0.456181 
+2023-01-13 10:50:46,605 - [epoch:  30/ 30, batch:  8400/11216, ite: 166833, time: 198.182083] g_loss : 1.385846, d_loss : 0.457143 
+2023-01-13 10:53:41,109 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_167000_G_1.383522_D_0.457286.pth
+2023-01-13 10:54:15,643 - [epoch:  30/ 30, batch:  8800/11216, ite: 167033, time: 209.037451] g_loss : 1.398791, d_loss : 0.455528 
+2023-01-13 10:57:44,327 - [epoch:  30/ 30, batch:  9200/11216, ite: 167233, time: 208.684113] g_loss : 1.379655, d_loss : 0.457544 
+2023-01-13 11:01:08,797 - [epoch:  30/ 30, batch:  9600/11216, ite: 167433, time: 204.469891] g_loss : 1.380547, d_loss : 0.457501 
+2023-01-13 11:04:31,607 - [epoch:  30/ 30, batch: 10000/11216, ite: 167633, time: 202.810045] g_loss : 1.386682, d_loss : 0.457341 
+2023-01-13 11:07:55,452 - [epoch:  30/ 30, batch: 10400/11216, ite: 167833, time: 203.844795] g_loss : 1.384899, d_loss : 0.457046 
+2023-01-13 11:10:44,863 - saved model /root/autodl-tmp/CycleGAN-Music-Style-Transfer-master/saved_models/JC-1-11-17-47/JC_itr_168000_G_1.384160_D_0.457109.pth
+2023-01-13 11:11:18,930 - [epoch:  30/ 30, batch: 10800/11216, ite: 168033, time: 203.478322] g_loss : 1.366461, d_loss : 0.458989 
+2023-01-13 11:14:40,127 - [epoch:  30/ 30, batch: 11200/11216, ite: 168233, time: 201.197071] g_loss : 1.407714, d_loss : 0.455996 

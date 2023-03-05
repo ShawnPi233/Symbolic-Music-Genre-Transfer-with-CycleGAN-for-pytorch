@@ -6,19 +6,20 @@ import copy
 
 
 def kernel_initializer(w, mean=0., std=0.02):
-    return nn.init.normal_(w, mean, std)
+    return nn.init.normal_(w, mean, std) #初始化kernel权重
 
 
 def padding(x, p=3):
     return F.pad(x, (p, p, p, p), mode='reflect')
 
 
-def cycle_loss(real_a, cycle_a, real_b, cycle_b):
+def cycle_loss(real_a, cycle_a, real_b, cycle_b): #计算cycle loss,取a和b类别各自的cycle和real的l1范数的均值的和（平均绝对误差之和）
     return F.l1_loss(cycle_a, real_a, reduction='mean') + F.l1_loss(cycle_b, real_b, reduction='mean')
 
 
-class InstanceNorm2d(nn.InstanceNorm2d):
+class InstanceNorm2d(nn.InstanceNorm2d):#实例归一化，每次对单个样本的各维度单独计算标准差和均值
     def __init__(self,
+
                  num_features: int,
                  eps: float = 1e-5,
                  momentum: float = 0.1,
@@ -51,7 +52,7 @@ class ResNetBlock(nn.Module):
             nn.Conv2d(dim, dim, kernel_size, stride, bias=False),
             InstanceNorm2d(dim, affine=True),
         )
-        self.relu = nn.ReLU(inplace=True)
+        self.relu = nn.ReLU(inplace=True) #inplace为True，将会改变输入的数据 ，否则不会改变原输入，只会产生新的输出
         self.layer2[0].weight = kernel_initializer(self.layer2[0].weight)
 
     def forward(self, x):
@@ -72,7 +73,7 @@ class Discriminator(nn.Module):
         super(Discriminator, self).__init__()
         self.discriminator = nn.Sequential(
             nn.Conv2d(1, dim, 7, 2, padding=3, bias=False),
-            nn.LeakyReLU(negative_slope=0.2, inplace=True),
+            nn.LeakyReLU(negative_slope=0.2, inplace=True), #negative_slope leakyrelu负半轴直线的斜率
             # (bs,64,32,42)
             nn.Conv2d(dim, 4 * dim, 7, 2, padding=3, bias=False),
             InstanceNorm2d(4 * dim, affine=True),
@@ -169,7 +170,7 @@ class Classifier(nn.Module):
         self.softmax = nn.Softmax(dim=1)
 
         for i in [0, 2, 5, 8, 11]:
-            self.cla[i].weight = kernel_initializer(self.cla[i].weight)
+            self.cla[i].weight = kernel_initializer(self.cla[i].weight) #分别对应分类网络的第0、2、5、8、11层的卷积层，对它们进行参数初始化
 
     def forward(self, x):
         x = self.cla(x)
@@ -217,12 +218,12 @@ class CycleGAN(nn.Module):
         self.sigma = sigma
         self.mode = mode
         self.sampler = Sampler(sample_size)
-        self.lamb = lamb
+        self.lamb = lamb #λ表示循环一致损失的权重，论文中是10
 
     def forward(self, real_A, real_B, x_m):
         # blue line
         fake_B = self.G_A2B(real_A)
-        cycle_A = self.G_B2A(fake_B)
+        cycle_A = self.G_B2A(fake_B) #从B学习风格后又回到A，即将B风格迁移给A内容得到的数据
 
         # red line
         fake_A = self.G_B2A(real_B)

@@ -22,8 +22,14 @@ def make_parses():
     )
     parser.add_argument(
         '--model-dir',
-        default = r'saved_models/JC/JC_itr_168000_G_1.384160_D_0.457109.pth',
-        # default = r'saved_models/JC/JC_itr_83000_G_1.379626_D_0.459392.pth',
+        default = r'saved_models/JC/JC_itr_32000_G_1.386985_D_0.461608.pth',
+        # default = r'saved_models/CP_itr_216000_G_1.367802_D_0.440168.pth',
+        # default = r'saved_models/JC_itr_107000_G_1.382960_D_0.457389.pth',
+        # default = r'saved_models/CP/CP_itr_197000_G_1.354145_D_0.452297.pth',
+        # default = r'saved_models/CP/CP_itr_158000_G_1.365788_D_0.455798.pth',
+        # default = r'saved_models/CP/CP_itr_126000_G_1.365276_D_0.461854.pth',
+        # default=r'saved_models/CP/CP_itr_47000_G_1.370169_D_0.470722.pth',
+        # default=r'saved_models\CP-1-8-1-2\CP_itr_64000_G_1.347712_D_0.441307.pth',
         type=str
     )
     parser.add_argument(

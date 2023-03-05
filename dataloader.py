@@ -27,18 +27,17 @@ class MusicDataset(Dataset):
         assert train_mode in ['CP', 'JP', 'JC'], 'wrong train mode was given'
         assert data_mode in ['partial', 'full'], 'wrong data mode was given'
 
-        a_data_dir = train_mode + '_' + train_mode[0]
+        a_data_dir = train_mode + '_' + train_mode[0] # 根据train_mode[0或1]来判断音乐的类别
         b_data_dir = train_mode + '_' + train_mode[1]
         print('data_dir',data_dir, a_data_dir, b_data_dir)
         a_dir = os.path.join(data_dir, a_data_dir, is_train + os.sep)
         b_dir = os.path.join(data_dir, b_data_dir, is_train + os.sep)
         print('read data from ', a_dir, b_dir)
-        self.A_list = glob.glob(a_dir + '*' + '.npy')
+        self.A_list = glob.glob(a_dir + '*' + '.npy') #使用glob.glob()检索符合检索式的所有文件，并返回列表,列表的每个元素为str格式的文件路径
         self.B_list = glob.glob(b_dir + '*' + '.npy')
         self.transform = ToTensor()
 
-        assert len(self.A_list) == len(
-            self.B_list), 'the lengths of a and b are different'
+        assert len(self.A_list) == len(self.B_list), 'the lengths of a and b are different'
 
         if is_train == 'test':
             self.mixed_dir = self.A_list
@@ -50,7 +49,7 @@ class MusicDataset(Dataset):
     def __len__(self):
         return len(self.A_list)
 
-    def __getitem__(self, idx):
+    def __getitem__(self, idx): #返回迭代变量的值
         bar_a = load_npy(self.A_list[idx])
         bar_b = load_npy(self.B_list[idx])
         bar_mixed = load_npy(self.mixed_dir[idx])
@@ -73,7 +72,7 @@ class MusicDataset(Dataset):
         name = data_dir.split(os.sep)[-1]
         name = name.split('.')[0]
         return name
-
+class
 class CustomDataset(Dataset):
     def __init__(self, data_dir, transform=ToTensor()):
         assert os.path.exists(data_dir)
