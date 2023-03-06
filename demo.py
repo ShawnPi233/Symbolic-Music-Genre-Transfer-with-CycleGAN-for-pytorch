@@ -7,7 +7,8 @@
 #     return alpha_bar
 # b = f()
 # print(b)
-
+import os
+import glob
 def glob_demo():
     dir = r'D:\codes\papers_code\Symbolic-Music-Genre-Transfer-with-CycleGAN-for-pytorch-main'
     import glob
@@ -39,5 +40,14 @@ def test_dataloader():
         music_dataset, batch_size=10, shuffle=False, num_workers=0)
     for i, data in enumerate(music_dataloader):
         print(music_dataset._get_name(i))
+
+def test_label():
+    data_dir = os.path.join(os.getcwd(), 'data' + os.sep)
+    dataA = glob.glob(data_dir +  'JCP_mixed\*' + '.npy')
+    labelA = [(1.0, 0.0) for _ in range(len(dataA))]
+    labelB = [(0.0, 1.0) for _ in range(len(dataA))]
+    label = labelA + labelB
+    a = label[len(labelA)] #列表拼接
+    return a
 if __name__ == '__main__':
-    test_dataloader()
+    test_label()
